@@ -1,0 +1,44 @@
+LEXICON Pronouns
+
+Personal ;
+
+LEXICON Personal
+
+ni+Pron+Pers+Abs:ni # ;
+ni+Pron+Pers+Erg:nik # ;
+ni+Pron+Pers+Dat:niri # ;
+ni+Pron+Pers+Gen:nire # ;
+zu+Pron+Pers+Abs:zu # ;
+zu+Pron+Pers+Erg:zuk # ;
+zu+Pron+Pers+Dat:zuri # ;
+zu+Pron+Pers+Gen:zure # ;
+hura+Pron+Pers+Abs:hura # ;
+hura+Pron+Pers+Erg:harkar # ;
+hura+Pron+Pers+Dat:hari # ;
+hura+Pron+Pers+Gen:haren # ;
+gu+Pron+Pers+Abs:gu # ;
+gu+Pron+Pers+Erg:guk # ;
+gu+Pron+Pers+Dat:guri # ;
+gu+Pron+Pers+Gen:gure # ;
+zuek+Pron+Pers+Abs:zuek # ;
+zuek+Pron+Pers+Erg:zuek # ;
+zuek+Pron+Pers+Dat:zuei # ;
+zuek+Pron+Pers+Gen:zuen # ;
+haiek+Pron+Pers+Abs:haiek # ;
+haiek+Pron+Pers+Erg:haiek # ;
+haiek+Pron+Pers+Dat:haiei # ;
+haiek+Pron+Pers+Gen:haien # ;
+
+ni+Pron+Pers: pronloc ;
+zu+Pron+Pers: pronloc ;
+hura+Pron+Pers: pronloc ;
+gu+Pron+Pers: pronloc ;
+zuek+Pron+Pers: pronloc ;
+haiek+Pron+Pers: pronloc ;
+
+LEXICON pronloc
++Ben:tzat # ;
++Com:kin # ;
++Ins:taz # ;
+
+

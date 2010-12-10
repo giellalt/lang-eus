@@ -14,7 +14,8 @@ endif
 
 scripts=$(GTHOME)/gt/script
 
-LEX = eus-lex.txt #\
+LEX = eus-lex.txt \
+	  pron-eus-lex.txt 
 #	  noun-eus-lex.txt \
 #	  noun-eus-morph.txt \
 #	  propernoun-eus-lex.txt \
@@ -26,7 +27,6 @@ LEX = eus-lex.txt #\
 #	  adv-eus-lex.txt \
 #	  abbr-eus-lex.txt \
 #	  acro-eus-lex.txt \
-#	  pron-eus-lex.txt \
 #	  punct-eus-lex.txt \
 #	  numeral-eus-lex.txt \
 #	  pp-eus-lex.txt \

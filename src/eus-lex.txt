@@ -15,24 +15,21 @@ Multichar_Symbols
 +Pl
 +Sg
 
++Pron
+
 %>
 
 LEXICON Root
 
 Nouns ;
 Propernouns ;
+Pronouns ;
 
-LEXICON SgCases 
+LEXICON SgCases1 
 
 +Sg+Abs: # ; !-ak
 +Sg+Erg:%>k # ; !-ek
 +Sg+Dat:%>ri # ; !-ei
-
-+Sg+Ine:%>n # ; !-ean !-etan
-!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
-+Sg+All:%>ra # ; !-era !-etara
-+Sg+Ela:%>tik # ; !-etik !-etatik
-+Sg+LGen:%>ko # ; !-eko !-etako
 
 +Sg+PGen:%>ren # ; !-en
 +Sg+Ins:%>z # ; !-ez, taz, etaz
@@ -40,23 +37,42 @@ LEXICON SgCases
 +Sg+Ben:%>rentzat # ; !-entzat
 +Sg+Ben2:%>rengatik # ; !-agatik !-engatik
 
+LEXICON SgCases2
 
-LEXICON PlCases 
++Sg+Ine:%>n # ; !-ean !-etan
+!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
++Sg+All:%>ra # ; !-era !-etara
++Sg+Ela:%>tik # ; !-etik !-etatik
++Sg+LGen:%>ko # ; !-eko !-etako
+
+LEXICON SgCases2Bizigabe !unanimate
+
++Sg+Ine:%>n # ; !-ean !-etan
+!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
++Sg+All:%>ra # ; !-era !-etara
++Sg+Ela:%>tik # ; !-etik !-etatik
++Sg+LGen:%>ko # ; !-eko !-etako
+
+
+LEXICON PlCases1 
 
 +Pl+Abs:%>k # ;
 +Pl+Erg:%>ek # ;
 +Pl+Dat:%>ei # ;
-
-+Pl+Ine:%>etan # ;
-+Pl+All:%>etara # ;
-+Pl+Ela:%>etatik # ;
-+Pl+LGen:%>etako # ;
 
 +Pl+PGen:%>en # ; 
 +Pl+Ins:%>ez # ; 
 +Pl+Soc:%>ekin # ;
 +Pl+Ben:%>entzat # ;
 +Pl+Ben2:%>engatik # ;
+
+LEXICON PlCases2 
+
++Pl+Ine:%>etan # ;
++Pl+All:%>etara # ;
++Pl+Ela:%>etatik # ;
++Pl+LGen:%>etako # ;
+
 
 LEXICON Mggcases 
 
