@@ -1,16 +1,26 @@
 Multichar_Symbols
 
 +N +Po
-+Abs +Acc +Dat +Ins +Soc +Erg +Ine +Ben +Par +All +Ela +Gen +Term +Ten
++Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Art
 +Locp
 +Ben2
++PGen
++LGen
++Mgg
++XXX
++Prop
+
++Dim
++Pl
++Sg
 
 %>
 
 LEXICON Root
 
 Nouns ;
+Propernouns ;
 
 LEXICON SgCases 
 
@@ -51,19 +61,19 @@ LEXICON PlCases
 LEXICON Mggcases 
 
 +Mgg+Abs: # ;
-+Mgg+Erg:%>ek # ;
-!+Mgg+Dat:%>ri # ;
++Mgg+Erg:%>ek # ;   !k
++Mgg+Dat:%>ri # ;   !i
 
-!+Mgg+Ine:%>etan # ;
-!+Mgg+All:%>etara # ;
-!+Mgg+Ela:%>etatik # ;
-!+Mgg+LGen:%>etako # ;
++Mgg+Ine:%>etan # ;     !tan
++Mgg+All:%>etara # ;    !tara
++Mgg+Ela:%>etatik # ;   !tatik
++Mgg+LGen:%>etako # ;   !tako
 
-!+Mgg+PGen:%>en # ; 
-!+Mgg+Ins:%>ez # ; 
-!+Mgg+Soc:%>ekin # ;
-!+Mgg+Ben:%>entzat # ;
-!+Mgg+Ben2:%>engatik # ;
++Mgg+PGen:%>ren # ;    !en
++Mgg+Ins:%>z # ;       !ez,etaz,taz
++Mgg+Soc:%>rekin # ;   !ekin
++Mgg+Ben:%>rentzat # ; !entzat
++Mgg+Ben2:%>rengatik # ;   !engatik
 
 
 
@@ -102,7 +112,7 @@ LEXICON Precases !nouns that can denote a location, they can take another case i
 
 +Sg+Term:%>raino # ; !Terminal "as far as"
 +Sg+Gen:%>ko # ;
-+Sg+:%>koa # ;
++Sg+XXX:%>koa # ;
 +Sg+Ten:%>rantz # ; !Tendential "toward"
 
 
@@ -127,7 +137,7 @@ LEXICON Na
 
 LEXICON Np
 
-+N: Propcases # ;
++N+Prop: Propcases ;
 
 
 LEXICON Nouns
