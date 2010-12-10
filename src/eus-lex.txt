@@ -39,18 +39,13 @@ LEXICON SgCases1
 
 LEXICON SgCases2
 
-+Sg+Ine:%>n # ; !-ean !-etan
++Sg+Ine: # ; !-ean !-etan
 !twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
 +Sg+All:%>ra # ; !-era !-etara
 +Sg+Ela:%>tik # ; !-etik !-etatik
-+Sg+LGen:%>ko # ; !-eko !-etako
 
-LEXICON SgCases2Bizigabe !unanimate
+LEXICON SgCases3
 
-+Sg+Ine:%>n # ; !-ean !-etan
-!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
-+Sg+All:%>ra # ; !-era !-etara
-+Sg+Ela:%>tik # ; !-etik !-etatik
 +Sg+LGen:%>ko # ; !-eko !-etako
 
 
@@ -68,28 +63,39 @@ LEXICON PlCases1
 
 LEXICON PlCases2 
 
-+Pl+Ine:%>etan # ;
++Pl+Ine: # ;
 +Pl+All:%>etara # ;
 +Pl+Ela:%>etatik # ;
+
+LEXICON PlCases3 
+
 +Pl+LGen:%>etako # ;
 
 
-LEXICON Mggcases 
+LEXICON MggCases1 
 
 +Mgg+Abs: # ;
 +Mgg+Erg:%>ek # ;   !k
 +Mgg+Dat:%>ri # ;   !i
-
-+Mgg+Ine:%>etan # ;     !tan
-+Mgg+All:%>etara # ;    !tara
-+Mgg+Ela:%>etatik # ;   !tatik
-+Mgg+LGen:%>etako # ;   !tako
 
 +Mgg+PGen:%>ren # ;    !en
 +Mgg+Ins:%>z # ;       !ez,etaz,taz
 +Mgg+Soc:%>rekin # ;   !ekin
 +Mgg+Ben:%>rentzat # ; !entzat
 +Mgg+Ben2:%>rengatik # ;   !engatik
+
++Mgg+Par:%>rik # ;
+
+LEXICON MggCases2
+
++Mgg+Ine:%>etan # ;     !tan
++Mgg+All:%>etara # ;    !tara
++Mgg+Ela:%>etatik # ;   !tatik
+
+
+LEXICON MggCases3
+
++Mgg+LGen:%>etako # ;   !tako
 
 
 
@@ -104,7 +110,6 @@ LEXICON Propcases
 +Ela:%>tik # ; !-dik
 +LGen:%>ko # ; !-go
 
-+Par:%>rik # ;
 +PGen:%>ren # ; !-en
 +Ins:%>z # ; !-ez, taz, etaz
 +Soc:%>rekin # ; !-ekin
@@ -112,44 +117,75 @@ LEXICON Propcases
 +Ben2:%>rengatik # ; !-engatik
 
 
-LEXICON Locparadigm !after animate noun phrases
+LEXICON Bizidun !after animate noun phrases
 
-+Locp:%>gan # ; ! "at, in" mutilengan - in the boys
-+Locp:%>gan Loccases ;
++Biz: SgCases1 ;
++Biz: PlCases1 ;
++Biz:%>gan SgCases2 ;
++Biz:%>engan PlCases2 ;
 
-LEXICON Loccases
-
-+Ela:%>dik # ; !"from"
-+All:%>a # ; ! "to"
-+Term:%>aino # ; !"as far as, up to"
-+Ten:%>antz # ; ! "toward"
-
-LEXICON Precases !nouns that can denote a location, they can take another case in addition
-
-+Sg+Term:%>raino # ; !Terminal "as far as"
-+Sg+Gen:%>ko # ;
-+Sg+XXX:%>koa # ;
-+Sg+Ten:%>rantz # ; !Tendential "toward"
+!LEXICON Loccases
+!
+!+Ela:%>dik # ; !"from"
+!+All:%>a # ; ! "to"
+!+Term:%>aino # ; !"as far as, up to"
+!+Ten:%>antz # ; ! "toward"
+!
+!LEXICON Precases !nouns that can denote a location, they can take another case in addition
+!
+!+Sg+Term:%>raino # ; !Terminal "as far as"
+!+Sg+Gen:%>ko # ;
+!+Sg+XXX:%>koa # ;
+!+Sg+Ten:%>rantz # ; !Tendential "toward"
 
 
 !for propernouns ending in a consonant
 
-LEXICON Dim
-+Dim:%>txo Cases ; !tto, no
+!LEXICON Dim
+!+Dim:%>txo Cases ; !tto, no
 
 LEXICON Nreg
 
-+N: MggCases ;
-+N+Art:%>a SgCases ;
-+N+Art:%>a PlCases ;
-+N: Dim ;
++N: MggCases1 ;
++N: MggCases2 ;
++N: MggCases3 ;
++N+Art:%>a SgCases1 ;
++N+Art:%>a SgCases2 ;
++N+Art:%>a SgCases3 ;
++N+Art:%>a PlCases1 ;
++N+Art:%>a PlCases2 ;
++N+Art:%>a PlCases3 ;
+!+N: Dim ;
+
+LEXICON NregBizi
+
++N: MggCases1 ;
++N: Bizidun ;
++N+Art:%>a SgCases1 ;
++N+Art:%>a Bizidun ;
++N+Art:%>a PlCases1 ;
+!+N: Dim ;
 
 LEXICON Na
 
-+N: MggCases ;
-+N+Art:%>a SgCases ;
-+N+Art:%>a PlCases ;
-+N: Dim ;
++N: MggCases1 ;
++N: MggCases2 ;
++N: MggCases3 ;
++N+Art: SgCases1 ;
++N+Art: SgCases2 ;
++N+Art: SgCases3 ;
++N+Art: PlCases1 ;
++N+Art: PlCases2 ;
++N+Art: PlCases3 ;
+!+N: Dim ;
+
+LEXICON NaBizi
+
++N: MggCases1 ;
++N+Art: SgCases1 ;
++N+Art: PlCases1 ;
++N+Art: Bizidun ;
+!+N: Dim ;
 
 LEXICON Np
 
@@ -161,8 +197,10 @@ LEXICON Nouns
 etxe Nreg "house" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
-txakur Nreg "dog" ;
-neska Na "girl" ;
+txakur NregBizi "dog" ;
+neska NaBizi "girl" ;
+seme NregBizi "son" ;
+mendi Nreg "mountain" ;
 
 LEXICON Propernouns
 
