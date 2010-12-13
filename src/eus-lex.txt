@@ -17,6 +17,27 @@ Multichar_Symbols
 
 +Pron
 
++V
++Aux
++ifl
++ifl/f
++ifl/m
++Ind
++Prs
++Prt
++Abs/Sg1
++Abs/Sg2
++Abs/Sg3
++Abs/Pl1
++Abs/Pl2
++Abs/Pl3
++Dat/Sg1
++Dat/Sg2
++Dat/Sg3
++Dat/Pl1
++Dat/Pl2
++Dat/Pl3
+
 %>
 
 LEXICON Root
@@ -24,6 +45,7 @@ LEXICON Root
 Nouns ;
 Propernouns ;
 Pronouns ;
+Verbs ;
 
 LEXICON SgCases1 
 
@@ -75,7 +97,7 @@ LEXICON PlCases3
 LEXICON MggCases1 
 
 +Abs: # ;
-+Erg:%>ek # ;   !k
++Erg:%>k # ;   !k
 +Dat:%>ri # ;   !i
 
 +PGen:%>ren # ;    !en
@@ -121,8 +143,10 @@ LEXICON Bizidun !after animate noun phrases
 
 +Biz: SgCases1 ;
 +Biz: PlCases1 ;
++Biz: MggCases1 ;
 +Biz:%>gan SgCases2 ;
-+Biz:%>engan PlCases2 ;
++Biz:%>rengan PlCases2 ;
++Biz:%>rengan MggCases2 ;
 
 !LEXICON Loccases
 !
@@ -159,11 +183,8 @@ LEXICON Nreg
 
 LEXICON NregBizi
 
-+N: MggCases1 ;
 +N: Bizidun ;
-+N+Art:%>a SgCases1 ;
 +N+Art:%>a Bizidun ;
-+N+Art:%>a PlCases1 ;
 !+N: Dim ;
 
 LEXICON Na
@@ -181,15 +202,63 @@ LEXICON Na
 
 LEXICON NaBizi
 
-+N: MggCases1 ;
-+N+Art: SgCases1 ;
-+N+Art: PlCases1 ;
++N: Bizidun ;
 +N+Art: Bizidun ;
 !+N: Dim ;
 
 LEXICON Np
 
 +N+Prop: Propcases ;
+
+
+LEXICON Aux
+
++V+Aux: IZANNOR ;
+
+LEXICON IZANNOR
+
++Ind+Prs+Abs/Sg1:naiz # ;
++Ind+Prs+Abs/Sg2+ifl:haiz # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg2:zara # ;
++Ind+Prs+Abs/Sg3:da # ;
++Ind+Prs+Abs/Pl1:gara # ;
++Ind+Prs+Abs/Pl2:zarete # ;
++Ind+Prs+Abs/Pl3:dira # ;
+
+!prt - en
++Ind+Prt+Abs/Sg1:nintzen # ;
++Ind+Prt+Abs/Sg2+ifl:hintzen # ;
++Ind+Prt+Abs/Sg2:zinen # ;
++Ind+Prt+Abs/Sg3:zen # ;
++Ind+Prt+Abs/Pl1:ginen # ;
++Ind+Prt+Abs/Pl2:zineten # ;
++Ind+Prt+Abs/Pl3:ziren # ;
+
+LEXICON IZANNORNORI
+
++Ind+Abs/Sg1:nintzai IZANNORI ;
++Ind+Abs/Sg2+ifl:hintzai IZANNORI ; !+Ind+Prs+Abs/hi
++Ind+Abs/Sg2:zintzai IZANNORI ;
++Ind+Abs/Sg3:zitzai IZANNORI ;
++Ind+Abs/Pl1:gintzaizki IZANNORI ;
++Ind+Abs/Pl2:zintzaizki IZANNORI ;
++Ind+Abs/Pl3:aitzaizki IZANNORI ;
+
+LEXICON IZANNORI
+
++Dat/Sg1:%>t       PAST ; !dan before a consonant
++Dat/Sg2+ifl/m:%>k PAST ; !kian before a consonant
++Dat/Sg2+ifl/f:%>n PAST ; !
++Dat/Sg2:%>zu      PAST ;
++Dat/Sg3:%>o       PAST ;
++Dat/Pl1:%>gu      PAST ;
++Dat/Pl2:%>zuete   PAST ;
++Dat/Pl3:%>e       PAST ;
+
+LEXICON PAST
+
++Prt:n # ;
+
 
 
 LEXICON Nouns
@@ -228,5 +297,9 @@ Ordizia Np "Villafranca de Oria" ;
 Getaria Np "Guetaria" ;
 Zuberoa Np "Soule" ;
 
-!lexicon for propernouns, nouns, nouns with organic a
+LEXICON Verbs
+
+asmatu Mv "invent" ;
+izan Aux "be" ;
+ukan Aux "be" ;
 
