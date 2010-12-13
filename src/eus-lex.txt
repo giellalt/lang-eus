@@ -74,28 +74,28 @@ LEXICON PlCases3
 
 LEXICON MggCases1 
 
-+Mgg+Abs: # ;
-+Mgg+Erg:%>ek # ;   !k
-+Mgg+Dat:%>ri # ;   !i
++Abs: # ;
++Erg:%>ek # ;   !k
++Dat:%>ri # ;   !i
 
-+Mgg+PGen:%>ren # ;    !en
-+Mgg+Ins:%>z # ;       !ez,etaz,taz
-+Mgg+Soc:%>rekin # ;   !ekin
-+Mgg+Ben:%>rentzat # ; !entzat
-+Mgg+Ben2:%>rengatik # ;   !engatik
++PGen:%>ren # ;    !en
++Ins:%>z # ;       !ez,etaz,taz
++Soc:%>rekin # ;   !ekin
++Ben:%>rentzat # ; !entzat
++Ben2:%>rengatik # ;   !engatik
 
-+Mgg+Par:%>rik # ;
++Par:%>rik # ;
 
 LEXICON MggCases2
 
-+Mgg+Ine:%>etan # ;     !tan
-+Mgg+All:%>etara # ;    !tara
-+Mgg+Ela:%>etatik # ;   !tatik
++Ine:%>etan # ;     !tan
++All:%>etara # ;    !tara
++Ela:%>etatik # ;   !tatik
 
 
 LEXICON MggCases3
 
-+Mgg+LGen:%>etako # ;   !tako
++LGen:%>etako # ;   !tako
 
 
 
