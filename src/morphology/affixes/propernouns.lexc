@@ -1,0 +1,20 @@
+LEXICON Propcases 
+
++Abs: # ; 
++Erg:%>k # ; ! -ek
++Dat:%>i # ; ! -ri
+
++Ine:%>n # ; ! -en
++All:%>ra # ; ! -a
++Ela:%>tik # ; !-dik
++LGen:%>ko # ; !-go
+
++PGen:%>ren # ; !-en
++Ins:%>z # ; !-ez, taz, etaz
++Soc:%>rekin # ; !-ekin
++Ben:%>rentzat # ; !-entzat
++Ben2:%>rengatik # ; !-engatik
+
+LEXICON Np
+
++N+Prop: Propcases ;
