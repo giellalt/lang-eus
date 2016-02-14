@@ -1,0 +1,136 @@
+LEXICON SgCases1 
+
++Sg+Abs: # ; !-ak
++Sg+Erg:%>k # ; !-ek
++Sg+Dat:%>ri # ; !-ei
+
++Sg+PGen:%>ren # ; !-en
++Sg+Ins:%>z # ; !-ez, taz, etaz
++Sg+Soc:%>rekin # ; !-ekin
++Sg+Ben:%>rentzat # ; !-entzat
++Sg+Ben2:%>rengatik # ; !-agatik !-engatik
+
+LEXICON SgCases2
+
++Sg+Ine: # ; !-ean !-etan
+!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
++Sg+All:%>ra # ; !-era !-etara
++Sg+Ela:%>tik # ; !-etik !-etatik
+
+LEXICON SgCases3
+
++Sg+LGen:%>ko # ; !-eko !-etako
+
+
+LEXICON PlCases1 
+
++Pl+Abs:%>k # ;
++Pl+Erg:%>ek # ;
++Pl+Dat:%>ei # ;
+
++Pl+PGen:%>en # ; 
++Pl+Ins:%>ez # ; 
++Pl+Soc:%>ekin # ;
++Pl+Ben:%>entzat # ;
++Pl+Ben2:%>engatik # ;
+
+LEXICON PlCases2 
+
++Pl+Ine: # ;
++Pl+All:%>etara # ;
++Pl+Ela:%>etatik # ;
+
+LEXICON PlCases3 
+
++Pl+LGen:%>etako # ;
+
+LEXICON MggCases1 
+
++Abs: # ;
++Erg:%>k # ;   !k
++Dat:%>ri # ;   !i
+
++PGen:%>ren # ;    !en
++Ins:%>z # ;       !ez,etaz,taz
++Soc:%>rekin # ;   !ekin
++Ben:%>rentzat # ; !entzat
++Ben2:%>rengatik # ;   !engatik
+
++Par:%>rik # ;
+
+LEXICON MggCases2
+
++Ine:%>etan # ;     !tan
++All:%>etara # ;    !tara
++Ela:%>etatik # ;   !tatik
+
+LEXICON MggCases3
+
++LGen:%>etako # ;   !tako
+
+LEXICON Bizidun !after animate noun phrases
+
++Biz: SgCases1 ;
++Biz: PlCases1 ;
++Biz: MggCases1 ;
++Biz:%>gan SgCases2 ;
++Biz:%>rengan PlCases2 ;
++Biz:%>rengan MggCases2 ;
+
+!LEXICON Loccases
+!
+!+Ela:%>dik # ; !"from"
+!+All:%>a # ; ! "to"
+!+Term:%>aino # ; !"as far as, up to"
+!+Ten:%>antz # ; ! "toward"
+!
+!LEXICON Precases !nouns that can denote a location, they can take another case in addition
+!
+!+Sg+Term:%>raino # ; !Terminal "as far as"
+!+Sg+Gen:%>ko # ;
+!+Sg+XXX:%>koa # ;
+!+Sg+Ten:%>rantz # ; !Tendential "toward"
+
+
+!for propernouns ending in a consonant
+
+!LEXICON Dim
+!+Dim:%>txo Cases ; !tto, no
+
+LEXICON Nreg
+
++N: MggCases1 ;
++N: MggCases2 ;
++N: MggCases3 ;
++N+Art:%>a SgCases1 ;
++N+Art:%>a SgCases2 ;
++N+Art:%>a SgCases3 ;
++N+Art:%>a PlCases1 ;
++N+Art:%>a PlCases2 ;
++N+Art:%>a PlCases3 ;
+!+N: Dim ;
+
+LEXICON NregBizi
+
++N: Bizidun ;
++N+Art:%>a Bizidun ;
+!+N: Dim ;
+
+LEXICON Na
+
++N: MggCases1 ;
++N: MggCases2 ;
++N: MggCases3 ;
++N+Art: SgCases1 ;
++N+Art: SgCases2 ;
++N+Art: SgCases3 ;
++N+Art: PlCases1 ;
++N+Art: PlCases2 ;
++N+Art: PlCases3 ;
+!+N: Dim ;
+
+LEXICON NaBizi
+
++N: Bizidun ;
++N+Art: Bizidun ;
+!+N: Dim ;
