@@ -42,6 +42,12 @@ LEXICON IZANNORI
 +Dat/Pl2:%>zuete   PAST ;
 +Dat/Pl3:%>e       PAST ;
 
+! XXX: SNM 14.2.2016: This lexicon is added to make eus compile. Replace with
+! something proper.
+LEXICON Mv
+
++V: PAST ;
+
 LEXICON PAST
 
 +Prt:n # ;
