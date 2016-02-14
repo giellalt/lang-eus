@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+datadir=@datarootdir@
+gtlang=eus
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-eus
+Description: Finite-state language processing tools for Basque
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
