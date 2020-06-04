@@ -1,0 +1,9 @@
+name = "Basque"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.eu"
+
+[windows]
+system_product_code = "ED4821A4-31FA-44C5-B95B-2574827DDF37"
+msoffice_product_code = "2E7FA9B6-62F9-4419-ADBF-B605B903A8A9"
