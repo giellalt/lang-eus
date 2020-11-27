@@ -1,9 +1,12 @@
-name = "Basque"
+name = "Euskara"
 version = "0.1.1"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.eu"
 
 [windows]
-system_product_code = "ED4821A4-31FA-44C5-B95B-2574827DDF37"
-msoffice_product_code = "2E7FA9B6-62F9-4419-ADBF-B605B903A8A9"
+system_product_code = "{6C76FB57-479A-4548-883C-3FCB96B52959}_is1"
+legacy_product_codes = [
+    { value = "ED4821A4-31FA-44C5-B95B-2574827DDF37", kind = "nsis" },
+    { value = "2E7FA9B6-62F9-4419-ADBF-B605B903A8A9", kind = "nsis" }
+]
