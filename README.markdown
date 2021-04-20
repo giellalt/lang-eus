@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/issues)
- [![Build Status](https://github.com/giellalt/lang-eus/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-eus/actions)
+[![Build Status](https://github.com/giellalt/lang-eus/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-eus/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-eus)](https://raw.githubusercontent.com/giellalt/lang-eus/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-eus)
 for the Basque language by using the [Divvun Installer](http://divvun.no)
