@@ -1,40 +1,4 @@
 
-# Symbol affixes
-
-
-
-
-
-=================================== !
-The Basque  morphophonological file !
-=================================== !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Basque morphological analyser                             !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
-
-
-
- * +Symbol = independent symbols in the text stream, like £, €, ©
-
-
-
-
-
-
-
 
 
 
@@ -80,6 +44,58 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 
 
+
+
+=================================== !
+The Basque  morphophonological file !
+=================================== !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+
+# Basque morphological analyser                             !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
+
+
+
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+
+
+
+
+
+
+
+
+
+We describe here how abbreviations are in Basque are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -135,20 +151,4 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Basque are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
