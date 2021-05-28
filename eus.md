@@ -606,6 +606,29 @@ These were the set types.
 
 
 
+# Symbol affixes
+
+
+
+
+
+=================================== !
+The Basque  morphophonological file !
+=================================== !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -653,29 +676,6 @@ These were the set types.
 
 
 
-=================================== !
-The Basque  morphophonological file !
-=================================== !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
 
 # Basque morphological analyser                             !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
@@ -687,22 +687,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 
 
-
-
-
-
-
-We describe here how abbreviations are in Basque are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
 
 
 
@@ -758,6 +742,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Basque are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
