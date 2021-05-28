@@ -1,7 +1,10 @@
-!! =================================== !
-!! The Basque  morphophonological file !
-!! =================================== !
+!!   =================================== !
+!! # The Basque  morphophonological file 
+!!   =================================== !
 
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-eus/blob/main/src/fst/phonology.twolc) 
+
+!! ## Alphabets, Sets
 Alphabet
  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z 
@@ -17,14 +20,17 @@ Sets
  Nas = m n ;
  NonNas = b c d f g h j k l p q r s t v w x z ð þ ;
 
+!! ## Rules
 Rules
 
 
 "ae -> e"
+!! Rule: **@RULENAME@**
  a:0 <=> _ %>: e ;
  
  
 "r doubling"
+!! Rule: **@RULENAME@**
  0:r <=> r %>: _ Vow ;
   
  
