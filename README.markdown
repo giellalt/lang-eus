@@ -3,13 +3,13 @@ The Basque morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/issues)
 [![Build Status](https://github.com/giellalt/lang-eus/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-eus/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-eus)](https://raw.githubusercontent.com/giellalt/lang-eus/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-eus)](https://raw.githubusercontent.com/giellalt/lang-eus/main/LICENSE)
 
 This repository contains finite state source files for the Basque language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-eus/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-eus/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-eus.git/trunk lang-eus
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-eus/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-eus/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
