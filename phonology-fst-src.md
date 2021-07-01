@@ -1,6 +1,6 @@
-  =================================== !
+=================================== !
 # The Basque  morphophonological file 
-  =================================== !
+=================================== !
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-eus/blob/main/src/fst/phonology.twolc) 
 
@@ -20,3 +20,5 @@ Rule: **ae -> e**
 Rule: **r doubling**
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/phonology.twolc)</small>

@@ -11,3 +11,5 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
