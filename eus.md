@@ -606,52 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eus/blob/main/../src/cg3/functions.cg3)</small>=================================== !
-# The Basque  morphophonological file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-eus/blob/main/src/fst/phonology.twolc) 
-
-## Alphabets, Sets
-
-
-
-
-
-
-## Rules
-
-
-Rule: **ae -> e**
-
-
-Rule: **r doubling**
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/phonology.twolc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>
-# Basque morphological analyser                             !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
-
-
-
- * +Symbol = independent symbols in the text stream, like £, €, ©
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eus/blob/main/../src/cg3/functions.cg3)</small>
 
 
 
@@ -700,7 +655,69 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/stems/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/stems/abbreviations.lexc)</small>=================================== !
+# The Basque  morphophonological file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-eus/blob/main/src/fst/phonology.twolc) 
+
+## Alphabets, Sets
+
+
+
+
+
+
+## Rules
+
+
+Rule: **ae -> e**
+
+
+Rule: **r doubling**
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/phonology.twolc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>
+# Basque morphological analyser                             !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
+
+
+
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
+
+
+We describe here how abbreviations are in Basque are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -756,23 +773,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Basque are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
