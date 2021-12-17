@@ -630,14 +630,6 @@ Rule: **r doubling**
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/phonology.twolc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
 
 
@@ -701,6 +693,14 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
 
 We describe here how abbreviations are in Basque are read out, e.g.
