@@ -606,7 +606,29 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eus/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eus/blob/main/../src/cg3/functions.cg3)</small>
+# Basque morphological analyser                             !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
+
+
+
+* +Symbol© = independent symbols in the text stream, like £, €, ©
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>=================================== !
 # The Basque  morphophonological file 
 =================================== !
 
@@ -679,28 +701,6 @@ Rule: **r doubling**
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/stems/abbreviations.lexc)</small>
-# Basque morphological analyser                             !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE Basque LANGUAGE.
-
-
-
- * +Symbol = independent symbols in the text stream, like £, €, ©
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
 
 We describe here how abbreviations are in Basque are read out, e.g.
