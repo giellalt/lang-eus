@@ -1,7 +1,7 @@
 * [functions-cg3-src.md](functions-cg3-src.md)
+* [phonology-fst-src.md](phonology-fst-src.md)
 * [root-fst-src.md](root-fst-src.md)
 * [symbols-affixes-fst-src.md](symbols-affixes-fst-src.md)
-* [phonology-fst-src.md](phonology-fst-src.md)
 * [abbreviations-stems-fst-src.md](abbreviations-stems-fst-src.md)
 * [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
 * [transcriptor-numbers-digit2text-transcriptions-src.md](transcriptor-numbers-digit2text-transcriptions-src.md)
