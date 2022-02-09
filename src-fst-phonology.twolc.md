@@ -6,19 +6,15 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-e
 
 ## Alphabets, Sets
 
-
-
-
-
-
 ## Rules
-
 
 Rule: **ae -> e**
 
-
 Rule: **r doubling**
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eus/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-eus/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
