@@ -2,7 +2,7 @@ The Basque morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-eus/main/badge.svg)](https://github.com/giellalt/lang-eus/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-eus/main/badge.svg)](https://github.com/giellalt/lang-eus/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-eus?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-eus?platform=mbile&channel=nightly)
