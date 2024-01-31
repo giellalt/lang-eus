@@ -1,5 +1,17 @@
-name = "Euskara"
+name = "Basque"
 version = "0.1.1"
+
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "Basque spellchecker"
+eu = "Euskara spellchecker"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "A spellchecker for Basque, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+eu = "TRANSLATE: A spellchecker for Basque, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.eu"
