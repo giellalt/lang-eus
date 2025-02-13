@@ -1,6 +1,9 @@
 LEXICON Verbs
 
-asmatu Mv "invent" ;
-izan Aux "be" ;
-ukan Aux "be" ;
+asmatu:asma Mv "invent" ;
+gorde:gorde MvIrr "hide" ;
+atera:atera MvIrr "(go, put) out" ;
+hil:hil MvIrr "die, kill" ;
+izan: Aux "be" ;
+ukan: Aux "be" ;
 
