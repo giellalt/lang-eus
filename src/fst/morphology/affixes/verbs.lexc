@@ -50,3 +50,9 @@ LEXICON Mv
 +V+Ger:%>tzen # ;
 +V+Ptc: # ;
 
+LEXICON MvIrr
++V+Inf: # ;
++V+Fut:%>ko # ;
++V+Ger:%>tzen # ;
++V+Ptc: # ;
+
