@@ -32,5 +32,9 @@ Rules
 "r doubling"
 !! Rule: **@RULENAME@**
  0:r <=> r %>: _ Vow ;
+ 
+"tz > t"
+!! Rule: **@RULENAME@**
+ z:0 <=> s i: %> t _ e n ; 
   
  
