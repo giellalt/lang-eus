@@ -12,16 +12,96 @@ LEXICON IZANNOR
 +Ind+Prs+Abs/Pl2:zarete # ;
 +Ind+Prs+Abs/Pl3:dira # ;
 
-!prt - en
-+Ind+Prt+Abs/Sg1:nintzen # ;
-+Ind+Prt+Abs/Sg2+ifl:hintzen # ;
-+Ind+Prt+Abs/Sg2:zinen # ;
-+Ind+Prt+Abs/Sg3:zen # ;
-+Ind+Prt+Abs/Pl1:ginen # ;
-+Ind+Prt+Abs/Pl2:zineten # ;
-+Ind+Prt+Abs/Pl3:ziren # ;
++Abs/Sg1:nin IndPrtSg ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Abs/Sg2+ifl:hin IndPrtSg ; ! Pot Prt hintekeen --- hintze -keen --- kutte z
++Abs/Sg3: IndPrtSg3 ; ! Pot Prt zitekeen --- ze-keen --- kutte z
++Abs/Pl1:gin IndPrtPl ; ! Pot Prt gintezkeen -- gin
++Abs/Sg2:zin IndPrtPl ; ! Pot Prt zintezkeen --- zin
++Abs/Pl2:zin IndPrtPl2 ; ! Pot Prt zinezketen -- zinet
++Abs/Pl3: IndPrtPl3 ; ! Pot Prt zitezkeen -- zir
 
-LEXICON IZANNORNORI
+
+!!prt - en
+!+Ind+Prt+Abs/Sg1:nintzen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+!+Ind+Prt+Abs/Sg2+ifl:hintzen # ; ! Pot Prt hintekeen --- hintze -keen --- kutte z
+!+Ind+Prt+Abs/Sg3:zen # ; ! Pot Prt zitekeen --- ze-keen --- kutte z
+!+Ind+Prt+Abs/Pl1:ginen # ; ! Pot Prt gintezkeen -- gin
+!+Ind+Prt+Abs/Sg2:zinen # ; ! Pot Prt zintezkeen --- zin
+!+Ind+Prt+Abs/Pl2:zineten # ; ! Pot Prt zinezketen -- zinet
+!+Ind+Prt+Abs/Pl3:ziren # ; ! Pot Prt zitezkeen -- zir
+
+
++Subj+Prs+Abs/Sg1:nadin # ;
++Subj+Prs+Abs/Sg2+ifl:hadin # ; !+Ind+Prs+Abs/hi
++Subj+Prs+Abs/Sg2:zaitezen # ;
++Subj+Prs+Abs/Sg3:dadin # ;
++Subj+Prs+Abs/Pl1:gaitezen # ;
++Subj+Prs+Abs/Pl2:zaitezten # ;
++Subj+Prs+Abs/Pl3:daitezen # ;
+
++Subj+Prt+Abs/Sg1:nendin # ;
++Subj+Prt+Abs/Sg2+ifl:hendin # ; !+Ind+Prs+Abs/hi
++Subj+Prt+Abs/Sg3:zedin # ;
++Subj+Prt+Abs/Pl1:gintezen # ;
++Subj+Prt+Abs/Sg2:zintezen # ;
++Subj+Prt+Abs/Pl2:zintezten # ;
++Subj+Prt+Abs/Pl3:zitezen # ;
+
+
++Pot+Prs+Abs/Sg1:naiteke # ;
++Pot+Prs+Abs/Sg2+ifl:haiteke # ; !+Ind+Prs+Abs/hi
++Pot+Prs+Abs/Sg3:daiteke # ;
++Pot+Prs+Abs/Pl1:gaitezke # ;
++Pot+Prs+Abs/Sg2:zaitezke # ;
++Pot+Prs+Abs/Pl2:zaitezkete # ;
++Pot+Prs+Abs/Pl3:daitezke # ;
+
+
++Cond+Prs+Abs/Sg1:banintz # ;
++Cond+Prs+Abs/Sg2+ifl:bahintz # ; !+Ind+Prs+Abs/hi
++Cond+Prs+Abs/Sg3:balitz # ;
++Cond+Prs+Abs/Pl1:bagina # ;
++Cond+Prs+Abs/Sg2:bazina # ;
++Cond+Prs+Abs/Pl2:bazinate # ;
++Cond+Prs+Abs/Pl3:balira # ;
+
+
+LEXICON IndPrtSg
++Ind+Prt:tzen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Prt:tekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Hip:teke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:tzateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+
+LEXICON IndPrtSg3
++Ind+Prt:zen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Prt:zitekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Hip:liteke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:litzateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+
+
+LEXICON IndPrtPl
++Ind+Prt:en # ; ! Pot Prt gintezkeen -- gin
++Pot+Prt:tezkeen # ; ! Pot Prt gintezkeen -- gin
++Pot+Hip:tezke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:ateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+
+
+LEXICON IndPrtPl2
++Ind+Prt:eten # ; ! Pot Prt gintezkeen -- gin
++Pot+Prt:ezketen # ; ! Pot Prt gintezkeen -- gin
++Pot+Hip:tezkete # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:atekete # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+
+
+LEXICON IndPrtPl3
++Ind+Prt:ziren # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Prt:zitezkeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Pot+Hip:litezke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:lirateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+
+
+
+LEXICON IZANNORNORI ! subj - iobj kongruens
 
 +Ind+Abs/Sg1:nintzai IZANNORI ;
 +Ind+Abs/Sg2+ifl:hintzai IZANNORI ; !+Ind+Prs+Abs/hi
@@ -42,8 +122,10 @@ LEXICON IZANNORI
 +Dat/Pl2:%>zuete   PAST ;
 +Dat/Pl3:%>e       PAST ;
 
+
+
 ! XXX: SNM 14.2.2016: This lexicon is added to make eus compile. Replace with
-! something proper.
+! something proper. Replaced 13.2.2025
 LEXICON Mv
 +V+Inf:%>tu # ;
 +V+Fut:%>tuko # ;
