@@ -4,6 +4,10 @@ asmatu:asma Mv "invent" ;
 gorde:gorde MvIrr "hide" ;
 atera:atera MvIrr "(go, put) out" ;
 hil:hil MvIrr "die, kill" ;
+itzuli:itzul MvIrrI "return" ;
+ikasi:ikas MvIrrI "learn" ;
+bidali:bidal MvIrrI "send" ;
+bizi:bizi MvIrrI "live" ;
 izan: Aux "be" ;
 ukan: Aux "be" ;
 
