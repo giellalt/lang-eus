@@ -111,6 +111,25 @@ LEXICON IZANNORNORI ! subj - iobj kongruens
 +Ind+Abs/Pl2:zintzaizki IZANNORI ;
 +Ind+Abs/Pl3:aitzaizki IZANNORI ;
 
+
++Pot+Prs+Abs/Sg1:naki  IZANNORIPOT ;
++Pot+Prs+Abs/Sg2+ifl:haki  IZANNORIPOT ; !+Ind+Prs+Abs/hi
++Pot+Prs+Abs/Sg3:daki  IZANNORIPOT;
++Pot+Prs+Abs/Pl1:gakizki  IZANNORIPOT ;
++Pot+Prs+Abs/Sg2:zakizki  IZANNORIPOT ;
++Pot+Prs+Abs/Pl2:zakizki  IZANNORIPOT ;
++Pot+Prs+Abs/Pl3:dakizki  IZANNORIPOT ;
+
+
++Pot+Prt+Abs/Sg1:nenki  IZANNORIPOT ;
++Pot+Prt+Abs/Sg2+ifl:henki  IZANNORIPOT ; !+Ind+Prs+Abs/hi
++Pot+Prt+Abs/Sg3:leki  IZANNORIPOT;
++Pot+Prt+Abs/Pl1:genizki  IZANNORIPOT ;
++Pot+Prt+Abs/Sg2:zenizki  IZANNORIPOT ;
++Pot+Prt+Abs/Pl2:zenizki  IZANNORIPOT ;
++Pot+Prt+Abs/Pl3:lekizki  IZANNORIPOT ;
+
+
 LEXICON IZANNORI
 
 +Dat/Sg1:%>t       PAST ; !dan before a consonant
@@ -121,6 +140,17 @@ LEXICON IZANNORI
 +Dat/Pl1:%>gu      PAST ;
 +Dat/Pl2:%>zuete   PAST ;
 +Dat/Pl3:%>e       PAST ;
+
+LEXICON IZANNORIPOT
+
++Dat/Sg1:%>dake        # ; !dan before a consonant
++Dat/Sg2+ifl/m:%>kake # ; !kian before a consonant
++Dat/Sg2+ifl/f:%>nake # ; !
++Dat/Sg2:%>zuke      # ;
++Dat/Sg3:%>oke       # ;
++Dat/Pl1:%>guke      # ;
++Dat/Pl2:%>zueke     # ;
++Dat/Pl3:%>eke       # ;
 
 
 
