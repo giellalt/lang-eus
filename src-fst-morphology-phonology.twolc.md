@@ -12,6 +12,8 @@ Rule: **ae -> e**
 
 Rule: **r doubling**
 
+Rule: **tz > t**
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-eus/blob/main/src/fst/morphology/phonology.twolc)</small>
