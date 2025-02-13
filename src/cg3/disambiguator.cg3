@@ -80,7 +80,8 @@ LIST PUNCT = PUNCT ;
 LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ;
 LIST Guess = Guess ;
-
+LIST Inf = Inf ;
+LIST Ptc = Ptc ;
 
 
 LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
