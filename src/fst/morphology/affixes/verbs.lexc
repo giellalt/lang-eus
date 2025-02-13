@@ -45,9 +45,8 @@ LEXICON IZANNORI
 ! XXX: SNM 14.2.2016: This lexicon is added to make eus compile. Replace with
 ! something proper.
 LEXICON Mv
++V+Inf:%>tu # ;
++V+Fut:%>tuko # ;
++V+Ger:%>tzen # ;
++V+Ptc: # ;
 
-+V: PAST ;
-
-LEXICON PAST
-
-+Prt:n # ;
