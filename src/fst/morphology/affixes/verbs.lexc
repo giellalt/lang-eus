@@ -71,12 +71,14 @@ LEXICON IndPrtSg
 +Pot+Prt:tekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Pot+Hip:teke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:tzateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prt:tzatekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 LEXICON IndPrtSg3
 +Ind+Prt:zen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Pot+Prt:zitekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Pot+Hip:liteke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:litzateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prt:zatekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 
 LEXICON IndPrtPl
@@ -84,6 +86,7 @@ LEXICON IndPrtPl
 +Pot+Prt:tezkeen # ; ! Pot Prt gintezkeen -- gin
 +Pot+Hip:tezke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:ateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prt:atekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 
 LEXICON IndPrtPl2
@@ -91,6 +94,7 @@ LEXICON IndPrtPl2
 +Pot+Prt:ezketen # ; ! Pot Prt gintezkeen -- gin
 +Pot+Hip:tezkete # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:atekete # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prt:ateketeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 
 LEXICON IndPrtPl3
@@ -98,6 +102,7 @@ LEXICON IndPrtPl3
 +Pot+Prt:zitezkeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Pot+Hip:litezke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:lirateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prs:ziratekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 
 
