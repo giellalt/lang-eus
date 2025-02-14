@@ -56,13 +56,13 @@
 +V+Aux+Abs/Pl2+Pot+Hip
 +V+Aux+Abs/Pl3+Pot+Hip
 
-+V+Aux+Abs/Sg1+Pot+Prs
-+V+Aux+Abs/Sg2+ifl+Pot+Prs
-+V+Aux+Abs/Sg2+Pot+Prs
-+V+Aux+Abs/Sg3+Pot+Prs
-+V+Aux+Abs/Pl1+Pot+Prs
-+V+Aux+Abs/Pl2+Pot+Prs
-+V+Aux+Abs/Pl3+Pot+Prs
++V+Aux+Pot+Prs+Abs/Sg1
++V+Aux+Pot+Prs+Abs/Sg2+ifl
++V+Aux+Pot+Prs+Abs/Sg2
++V+Aux+Pot+Prs+Abs/Sg3
++V+Aux+Pot+Prs+Abs/Pl1
++V+Aux+Pot+Prs+Abs/Pl2
++V+Aux+Pot+Prs+Abs/Pl3
 
 +V+Aux+Abs/Sg1+Pot+Prt
 +V+Aux+Abs/Sg2+ifl+Pot+Prt
