@@ -137,14 +137,14 @@ LEXICON IZANNORNORI ! subj - iobj kongruens
 
 LEXICON IZANNORI
 
-+Dat/Sg1:%>t       PAST ; !dan before a consonant
-+Dat/Sg2+ifl/m:%>k PAST ; !kian before a consonant
-+Dat/Sg2+ifl/f:%>n PAST ; !
-+Dat/Sg2:%>zu      PAST ;
-+Dat/Sg3:%>o       PAST ;
-+Dat/Pl1:%>gu      PAST ;
-+Dat/Pl2:%>zuete   PAST ;
-+Dat/Pl3:%>e       PAST ;
++Dat/Sg1:%>t       # ; !dan before a consonant
++Dat/Sg2+ifl/m:%>k # ; !kian before a consonant
++Dat/Sg2+ifl/f:%>n # ; !
++Dat/Sg2:%>zu      # ;
++Dat/Sg3:%>o       # ;
++Dat/Pl1:%>gu      # ;
++Dat/Pl2:%>zuete   # ;
++Dat/Pl3:%>e       # ;
 
 LEXICON IZANNORIPOT
 
