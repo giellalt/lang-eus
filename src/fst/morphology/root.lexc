@@ -20,6 +20,16 @@
 
 Multichar_Symbols
 
+
+! From testing, remove what is not needed:
++Biz
++Com
++Fut
++Gen
++Nom
++Pers
+! end of ad hoc instrtion
+
 +N +Po
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Art
@@ -32,6 +42,7 @@ Multichar_Symbols
 +Prop
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
++Abbr
 +Dim
 +Pl
 +Sg
