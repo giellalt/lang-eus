@@ -1,6 +1,7 @@
 
 LEXICON Aux
 +V+Aux: IZANNOR ;
++V+Aux: IZANNORNORI ;
 +V+Aux+Fut:izango # ;
 +V+Aux+Ptc:izaten # ;
 +V+Aux+Inf:izan # ;
