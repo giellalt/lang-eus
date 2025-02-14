@@ -74,7 +74,8 @@
 
 
 +Ind+Abs/Sg1+Dat/Sg1
-+Ind+Abs/Sg2+ifl+Dat/Sg1
++Ind+Abs/Sg2+ifl/m+Dat/Sg1
++Ind+Abs/Sg2+ifl/f+Dat/Sg1
 +Ind+Abs/Sg2+Dat/Sg1
 +Ind+Abs/Sg3+Dat/Sg1
 +Ind+Abs/Pl1+Dat/Sg1
@@ -82,7 +83,8 @@
 +Ind+Abs/Pl3+Dat/Sg1
 
 +Ind+Abs/Sg1+Dat/Sg2
-+Ind+Abs/Sg2+ifl+Dat/Sg2
++Ind+Abs/Sg2+ifl/m+Dat/Sg2
++Ind+Abs/Sg2+ifl/f+Dat/Sg2
 +Ind+Abs/Sg2+Dat/Sg2
 +Ind+Abs/Sg3+Dat/Sg2
 +Ind+Abs/Pl1+Dat/Sg2
@@ -90,7 +92,8 @@
 +Ind+Abs/Pl3+Dat/Sg2
 
 +Ind+Abs/Sg1+Dat/Sg3
-+Ind+Abs/Sg2+ifl+Dat/Sg3
++Ind+Abs/Sg2+ifl/f+Dat/Sg3
++Ind+Abs/Sg2+ifl/f+Dat/Sg3
 +Ind+Abs/Sg2+Dat/Sg3
 +Ind+Abs/Sg3+Dat/Sg3
 +Ind+Abs/Pl1+Dat/Sg3
