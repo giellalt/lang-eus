@@ -115,7 +115,7 @@ morf_codes="+V+Inf \
 source_file=src/fst/morphology/stems/verbs.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-#exception_lexicons="(flagK)"
+exception_lexicons="(Aux)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/fst/generator-gt-norm
