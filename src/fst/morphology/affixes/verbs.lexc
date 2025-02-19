@@ -25,15 +25,6 @@ LEXICON IZANNOR
 +Abs/Pl3: IndPrtPl3 ; ! Pot Prt zitezkeen -- zir
 
 
-!!prt - en
-!+Ind+Prt+Abs/Sg1:nintzen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
-!+Ind+Prt+Abs/Sg2+ifl:hintzen # ; ! Pot Prt hintekeen --- hintze -keen --- kutte z
-!+Ind+Prt+Abs/Sg3:zen # ; ! Pot Prt zitekeen --- ze-keen --- kutte z
-!+Ind+Prt+Abs/Pl1:ginen # ; ! Pot Prt gintezkeen -- gin
-!+Ind+Prt+Abs/Sg2:zinen # ; ! Pot Prt zintezkeen --- zin
-!+Ind+Prt+Abs/Pl2:zineten # ; ! Pot Prt zinezketen -- zinet
-!+Ind+Prt+Abs/Pl3:ziren # ; ! Pot Prt zitezkeen -- zir
-
 
 +Subj+Prs+Abs/Sg1:nadin # ;
 +Subj+Prs+Abs/Sg2+ifl:hadin # ; !+Ind+Prs+Abs/hi
@@ -66,7 +57,7 @@ LEXICON IZANNOR
 +Cond+Prs+Abs/Sg3:balitz # ;
 +Cond+Prs+Abs/Pl1:bagina # ;
 +Cond+Prs+Abs/Sg2:bazina # ;
-+Cond+Prs+Abs/Pl2:bazinate # ;
++Cond+Prs+Abs/Pl2:bazinete # ;
 +Cond+Prs+Abs/Pl3:balira # ;
 
 
@@ -106,7 +97,7 @@ LEXICON IndPrtPl3
 +Pot+Prt:zitezkeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Pot+Hip:litezke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 +Condfin+Prs:lirateke # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
-+Condfin+Prt:ziratekeen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
++Condfin+Prt:zirateketen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
 
 
 
@@ -200,3 +191,14 @@ LEXICON MvIrr
 +V+Ger:%>tzen # ;
 +V+Ptc: # ;
 
+
+
+
+!!prt - en
+!+Ind+Prt+Abs/Sg1:nintzen # ; ! Pot Prt nintekeen --- nintze-keen --- kutte z
+!+Ind+Prt+Abs/Sg2+ifl:hintzen # ; ! Pot Prt hintekeen --- hintze -keen --- kutte z
+!+Ind+Prt+Abs/Sg3:zen # ; ! Pot Prt zitekeen --- ze-keen --- kutte z
+!+Ind+Prt+Abs/Pl1:ginen # ; ! Pot Prt gintezkeen -- gin
+!+Ind+Prt+Abs/Sg2:zinen # ; ! Pot Prt zintezkeen --- zin
+!+Ind+Prt+Abs/Pl2:zineten # ; ! Pot Prt zinezketen -- zinet
+!+Ind+Prt+Abs/Pl3:ziren # ; ! Pot Prt zitezkeen -- zir
