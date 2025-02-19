@@ -112,6 +112,15 @@ LEXICON IndPrtPl3
 
 LEXICON IZANNORNORI ! subj - iobj kongruens
 
++Ind+Prs+Abs/Sg1:natzai IZANNORIPRS ;
++Ind+Prs+Abs/Sg2+ifl/m:hatzai IZANNORIPRS ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg2+ifl/f:hatzai IZANNORIPRS ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3:zai IZANNORIPRS ;
++Ind+Prs+Abs/Pl1:gatzaizki IZANNORIPRS ;
++Ind+Prs+Abs/Sg2:zatzaizki IZANNORIPRS ;
++Ind+Prs+Abs/Pl2:zatzaizki IZANNORIPRS ;
++Ind+Prs+Abs/Pl3:zaizki IZANNORIPRS ;
+
 +Ind+Prt+Abs/Sg1:nintzai IZANNORI ;
 +Ind+Prt+Abs/Sg2+ifl:hintzai IZANNORI ; !+Ind+Prs+Abs/hi
 +Ind+Prt+Abs/Sg2:zintzai IZANNORI ;
@@ -149,6 +158,18 @@ LEXICON IZANNORI
 +Dat/Pl1:%>gu      # ;
 +Dat/Pl2:%>zuete   # ;
 +Dat/Pl3:%>e       # ;
+
+LEXICON IZANNORIPRS
+
++Dat/Sg1:%>t       # ; !dan before a consonant
++Dat/Sg2+ifl/m:%>k # ; !kian before a consonant
++Dat/Sg2+ifl/f:%>n # ; !
++Dat/Sg2:%>zu      # ;
++Dat/Sg3:%>o       # ;
++Dat/Pl1:%>gu      # ;
++Dat/Pl2:%>zue   # ;
++Dat/Pl3:%>e       # ;
+
 
 LEXICON IZANNORIPOT
 
