@@ -9,7 +9,7 @@ Alphabet
  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z 
 
- %>:0 ;
+ %> ;
 
 Sets
 
@@ -26,15 +26,18 @@ Rules
 
 "ae -> e"
 !! Rule: **@RULENAME@**
- a:0 <=> _ %>: e ;
+ a:0 <=> _ %> e ;
  
+!€ a:0 > e
  
 "r doubling"
 !! Rule: **@RULENAME@**
- 0:r <=> r %>: _ Vow ;
+ 0:r <=> r %> _ Vow ;
  
 "tz > t"
 !! Rule: **@RULENAME@**
  z:0 <=> s i: %> t _ e n ; 
   
+!€ s i > t z:0 e n
+
  
