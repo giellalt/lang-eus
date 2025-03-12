@@ -7,15 +7,15 @@ hil:hil MvIrr "die, kill" ;
 itzuli:itzul MvIrrI "return" ;
 ikasi:ikas MvIrrI "learn" ;
 bidali:bidal MvIrrI "send" ;
-bizi:bizi MvIrrI "live" ;
-izan: Aux "be" ;
-ukan: Aux "be" ;
+bizi:biz MvIrrI "live" ;
+izan: Aux_izan "be" ;
+ukan: Aux_ukan "be" ;
 
 atxeki:atxeki ATXEKI ;
 eduki:eduki EDUKI ;
 egin:egin EGIN "do" ;
 egon:egon EGON ;
-ekarri:ekar EKARRI ;
+ekarri:ekarr EKARRI ; ! rr = rC ?
 ekin:ekin EKIN ;
 entzun:entzun ENTZUN ;
 erabili:erabili ERABILI ;
@@ -23,7 +23,7 @@ eraman:eraman ERAMAN ;
 erion:erion ERION ;
 eroan:eroan EROAN ;
 erran:erran ERRAN ;
-etorri:etor ETORRI "come" ;
+etorri:etorr ETORRI "come" ;
 etzan:etzan ETZAN ;
 eutsi:eutsi EUTSI ;
 ezagutu:ezagutu EZAGUTU ;

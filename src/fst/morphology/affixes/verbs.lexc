@@ -1,10 +1,105 @@
+!! # Basque verb morphology
+
+!! # Main verbs
+!! To be worked out
+LEXICON ATXEKI
++V+Inf: # ;
+ 
+LEXICON EDUKI
++V+Inf: # ;
+ 
+LEXICON EGIN
++V+Inf: # ;
+ 
+LEXICON EGON
++V+Inf: # ;
+ 
+LEXICON EKARRI
++V+Inf:%>i # ;
+ 
+LEXICON EKIN
++V+Inf: # ;
+ 
+LEXICON ENTZUN
++V+Inf: # ;
+ 
+LEXICON ERABILI
++V+Inf: # ;
+ 
+LEXICON ERAMAN
++V+Inf: # ;
+ 
+LEXICON ERION
++V+Inf: # ;
+ 
+LEXICON EROAN
++V+Inf: # ;
+ 
+LEXICON ERRAN
++V+Inf: # ;
+ 
+LEXICON ETZAN
++V+Inf: # ;
+ 
+LEXICON EUTSI
++V+Inf: # ;
+ 
+LEXICON EZAGUTU
++V+Inf: # ;
+ 
+LEXICON IBILI
++V+Inf: # ;
+ 
+LEXICON IHARDUKI
++V+Inf: # ;
+ 
+LEXICON IKUSI
++V+Inf:%>i # ;
+ 
+LEXICON IO
++V+Inf: # ;
+ 
+LEXICON IRAUN
++V+Inf: # ;
+ 
+LEXICON IRITZI
++V+Inf: # ;
+ 
+LEXICON IRUDI
++V+Inf: # ;
+ 
+LEXICON JAKIN
++V+Inf: # ;
+ 
+LEXICON JARDUN
++V+Inf: # ;
+ 
+LEXICON JARRAIKI
++V+Inf: # ;
+ 
+LEXICON JOAN
++V+Inf: # ;
+ 
+LEXICON MvIrrI
++V+Inf:%>i # ;
+
+
+
+
+
+LEXICON Aux_izan
++V+Aux+Inf:izan # ;
+Aux ;
+
+LEXICON Aux_ukan
++V+Aux+Inf:ukan # ;
+Aux ;
 
 LEXICON Aux
 +V+Aux: IZANNOR ;
 +V+Aux: IZANNORNORI ;
 +V+Aux+Fut:izango # ;
 +V+Aux+Ptc:izaten # ;
-+V+Aux+Inf:izan # ;
 
 LEXICON IZANNOR
 
