@@ -46,27 +46,27 @@ LEXICON PlCases3
 
 LEXICON MggCases1 
 
-+Abs: # ;
-+Erg:%>k # ;   !k
-+Dat:%>ri # ;   !i
++Sg+Abs: # ;
++Sg+Erg:%>k # ;   !k
++Sg+Dat:%>ri # ;   !i
 
-+PGen:%>ren # ;    !en
-+Ins:%>z # ;       !ez,etaz,taz
-+Soc:%>rekin # ;   !ekin
-+Ben:%>rentzat # ; !entzat
-+Ben2:%>rengatik # ;   !engatik
++Sg+PGen:%>ren # ;    !en
++Sg+Ins:%>z # ;       !ez,etaz,taz
++Sg+Soc:%>rekin # ;   !ekin
++Sg+Ben:%>rentzat # ; !entzat
++Sg+Ben2:%>rengatik # ;   !engatik
 
-+Par:%>rik # ;
++Sg+Par:%>rik # ;
 
 LEXICON MggCases2
 
-+Ine:%>etan # ;     !tan
-+All:%>etara # ;    !tara
-+Ela:%>etatik # ;   !tatik
++Sg+Ine:%>etan # ;     !tan
++Sg+All:%>etara # ;    !tara
++Sg+Ela:%>etatik # ;   !tatik
 
 LEXICON MggCases3
 
-+LGen:%>etako # ;   !tako
++Sg+LGen:%>etako # ;   !tako
 
 LEXICON Bizidun !after animate noun phrases
 
