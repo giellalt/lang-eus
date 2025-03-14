@@ -45,7 +45,9 @@ morf_codes="+A+Sg+Abs
             +A+Pl+Ela 
             +A+Pl+Term 
             +A+Pl+Ten
-            +A+Sg+Nom"
+            +A+Comp+Sg+Abs
+            +A+Superl+Sg+Abs
+            +A+Egi+Sg+Abs"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/adjectives.lexc
