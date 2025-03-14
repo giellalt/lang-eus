@@ -99,15 +99,19 @@ LEXICON Bizidun !after animate noun phrases
 
 LEXICON Nreg
 
-+N: MggCases1 ;
-+N: MggCases2 ;
-+N: MggCases3 ;
-+N+Art:%>a SgCases1 ;
-+N+Art:%>a SgCases2 ;
-+N+Art:%>a SgCases3 ;
-+N+Art:%>a PlCases1 ;
-+N+Art:%>a PlCases2 ;
-+N+Art:%>a PlCases3 ;
++N: Xreg ;
+
+LEXICON Xreg
+
+: MggCases1 ;
+: MggCases2 ;
+: MggCases3 ;
++Art:%>a SgCases1 ;
++Art:%>a SgCases2 ;
++Art:%>a SgCases3 ;
++Art:%>a PlCases1 ;
++Art:%>a PlCases2 ;
++Art:%>a PlCases3 ;
 !+N: Dim ;
 
 LEXICON NregBizi

@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for the Basque language
-! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2025 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -30,6 +30,10 @@ Multichar_Symbols
 +Pers
 ! end of ad hoc instrtion
 
++A
++Comp
++Egi
++Superl
 +N +Po
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Art
@@ -86,6 +90,7 @@ LEXICON Root
 Nouns ;
 Propernouns ;
 Pronouns ;
+Adjectives ;
 Verbs ;
 Punctuation ;
 Symbols     ;

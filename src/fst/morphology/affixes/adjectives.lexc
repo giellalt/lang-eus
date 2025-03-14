@@ -3,141 +3,15 @@ LEXICON Aon
 +A:  Xreg ; ! Mutil handi bat/hori. - En stor gutt
 ! Mutil handia. - Den store gutten
 ! Mutila handia da. - Gutten er stor
-+A+Comp:%>agoa # ; !-ak
-+A+Sup:%>ena # ; !-ek
-+A+Egi:%>egi # ;
++A+Comp:%>agoa Xreg ; !-ak
++A+Superl:%>ena Xreg ; !-ek
++A+Egi:%>egi Xreg ; !Hori handiegia da niretzat.
 
 
 LEXICON Areg
 
 +A: Xreg ;
-+A+Comp:%>agoa # ; !-ak
-+A+Sup:%>ena # ; !-ek
-+A+Egi:%>egi # ;
++A+Comp:%>agoa Xreg ; !-ak
++A+Superl:%>ena Xreg ; !-ek
++A+Egi:%>egi Xreg ;
 
-
-
-
-
-
-
-
-
-
-LEXICON SgCases3
-
-+Sg+LGen:%>ko # ; !-eko !-etako
-
-
-LEXICON PlCases1 
-
-+Pl+Abs:%>k # ;
-+Pl+Erg:%>ek # ;
-+Pl+Dat:%>ei # ;
-
-+Pl+PGen:%>en # ; 
-+Pl+Ins:%>ez # ; 
-+Pl+Soc:%>ekin # ;
-+Pl+Ben:%>entzat # ;
-+Pl+Ben2:%>engatik # ;
-
-LEXICON PlCases2 
-
-+Pl+Ine: # ;
-+Pl+All:%>etara # ;
-+Pl+Ela:%>etatik # ;
-
-LEXICON PlCases3 
-
-+Pl+LGen:%>etako # ;
-
-LEXICON MggCases1 
-
-+Abs: # ;
-+Erg:%>k # ;   !k
-+Dat:%>ri # ;   !i
-
-+PGen:%>ren # ;    !en
-+Ins:%>z # ;       !ez,etaz,taz
-+Soc:%>rekin # ;   !ekin
-+Ben:%>rentzat # ; !entzat
-+Ben2:%>rengatik # ;   !engatik
-
-+Par:%>rik # ;
-
-LEXICON MggCases2
-
-+Ine:%>etan # ;     !tan
-+All:%>etara # ;    !tara
-+Ela:%>etatik # ;   !tatik
-
-LEXICON MggCases3
-
-+LGen:%>etako # ;   !tako
-
-LEXICON Bizidun !after animate noun phrases
-
-+Biz: SgCases1 ;
-+Biz: PlCases1 ;
-+Biz: MggCases1 ;
-+Biz:%>gan SgCases2 ;
-+Biz:%>rengan PlCases2 ;
-+Biz:%>rengan MggCases2 ;
-
-!LEXICON Loccases
-!
-!+Ela:%>dik # ; !"from"
-!+All:%>a # ; ! "to"
-!+Term:%>aino # ; !"as far as, up to"
-!+Ten:%>antz # ; ! "toward"
-!
-!LEXICON Precases !nouns that can denote a location, they can take another case in addition
-!
-!+Sg+Term:%>raino # ; !Terminal "as far as"
-!+Sg+Gen:%>ko # ;
-!+Sg+XXX:%>koa # ;
-!+Sg+Ten:%>rantz # ; !Tendential "toward"
-
-
-!for propernouns ending in a consonant
-
-!LEXICON Dim
-!+Dim:%>txo Cases ; !tto, no
-
-LEXICON Nreg
-
-+N: MggCases1 ;
-+N: MggCases2 ;
-+N: MggCases3 ;
-+N+Art:%>a SgCases1 ;
-+N+Art:%>a SgCases2 ;
-+N+Art:%>a SgCases3 ;
-+N+Art:%>a PlCases1 ;
-+N+Art:%>a PlCases2 ;
-+N+Art:%>a PlCases3 ;
-!+N: Dim ;
-
-LEXICON NregBizi
-
-+N: Bizidun ;
-+N+Art:%>a Bizidun ;
-!+N: Dim ;
-
-LEXICON Na
-
-+N: MggCases1 ;
-+N: MggCases2 ;
-+N: MggCases3 ;
-+N+Art: SgCases1 ;
-+N+Art: SgCases2 ;
-+N+Art: SgCases3 ;
-+N+Art: PlCases1 ;
-+N+Art: PlCases2 ;
-+N+Art: PlCases3 ;
-!+N: Dim ;
-
-LEXICON NaBizi
-
-+N: Bizidun ;
-+N+Art: Bizidun ;
-!+N: Dim ;
