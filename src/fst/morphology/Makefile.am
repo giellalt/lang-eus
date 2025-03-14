@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-## Copyright (C) 2011 Samediggi
+## Copyright (C) 2025 Samediggi
 
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -34,11 +34,13 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/nouns.lexc       \
+			 affixes/adjectives.lexc       \
 			 affixes/propernouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc       \
 			 stems/abbreviations.lexc    \
 			 stems/nouns.lexc         \
+			 stems/adjectives.lexc         \
 			 stems/pronouns.lexc      \
 			 stems/propernouns.lexc      \
 			 stems/verbs.lexc
