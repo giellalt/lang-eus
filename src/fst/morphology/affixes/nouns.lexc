@@ -84,12 +84,12 @@ LEXICON Bizidun !after animate noun phrases
 !+Term:%>aino # ; !"as far as, up to"
 !+Ten:%>antz # ; ! "toward"
 !
-!LEXICON Precases !nouns that can denote a location, they can take another case in addition
-!
-!+Sg+Term:%>raino # ; !Terminal "as far as"
-!+Sg+Gen:%>ko # ;
-!+Sg+XXX:%>koa # ;
-!+Sg+Ten:%>rantz # ; !Tendential "toward"
+LEXICON Precases !nouns that can denote a location, they can take another case in addition
+
++Sg+Term:%>raino # ; !Terminal "as far as"
++Sg+LGen:%>ko # ;
++Sg+LGen+Art:%>koa # ;
++Sg+Ten:%>rantz # ; !Tendential "toward"
 
 
 !for propernouns ending in a consonant
@@ -112,6 +112,7 @@ LEXICON Xreg
 +Art:%>a PlCases1 ;
 +Art:%>a PlCases2 ;
 +Art:%>a PlCases3 ;
+: Precases ;
 !+N: Dim ;
 
 LEXICON NregBizi
