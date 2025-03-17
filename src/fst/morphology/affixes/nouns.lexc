@@ -46,23 +46,23 @@ LEXICON PlCases3
 
 LEXICON MggCases1 
 
-+Sg+Abs: # ;
-+Sg+Erg:%>k # ;   !k
-+Sg+Dat:%>ri # ;   !i
++Mgg+Sg+Abs: # ;
++Mgg+Sg+Erg:%>k # ;   !k
++Mgg+Sg+Dat:%>ri # ;   !i
 
-+Sg+PGen:%>ren # ;    !en
-+Sg+Ins:%>z # ;       !ez,etaz,taz
-+Sg+Soc:%>rekin # ;   !ekin
-+Sg+Ben:%>rentzat # ; !entzat
-+Sg+Ben2:%>rengatik # ;   !engatik
++Mgg+Sg+PGen:%>ren # ;    !en
++Mgg+Sg+Ins:%>z # ;       !ez,etaz,taz
++Mgg+Sg+Soc:%>rekin # ;   !ekin
++Mgg+Sg+Ben:%>rentzat # ; !entzat
++Mgg+Sg+Ben2:%>rengatik # ;   !engatik
 
-+Sg+Par:%>rik # ;
++Mgg+Sg+Par:%>rik # ;
 
 LEXICON MggCases2
 
-+Sg+Ine:%>etan # ;     !tan
-+Sg+All:%>etara # ;    !tara
-+Sg+Ela:%>etatik # ;   !tatik
++Mgg+Sg+Ine:%>etan # ;     !tan
++Mgg+Sg+All:%>etara # ;    !tara
++Mgg+Sg+Ela:%>etatik # ;   !tatik
 
 LEXICON MggCases3
 
@@ -83,7 +83,19 @@ LEXICON Bizidun !after animate noun phrases
 !+All:%>a # ; ! "to"
 !+Term:%>aino # ; !"as far as, up to"
 !+Ten:%>antz # ; ! "toward"
-!
+
+LEXICON NregLoc
+
+Precases ;
+Nreg ;
+
+
+LEXIOCN NaLoc 
+
+Precases ;
+Na ;
+
+
 LEXICON Precases !nouns that can denote a location, they can take another case in addition
 
 +Sg+Term:%>raino # ; !Terminal "as far as"
