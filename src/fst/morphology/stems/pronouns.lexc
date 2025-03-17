@@ -94,4 +94,44 @@ haiek+Pron+Dem+Pl+Ben1:haientzat # ;
 
 LEXICON Interrogative 
 
-nor+Pron+Interr+Sg+Abs:nor # ;
+nor+Pron+Interr:nor InterrCaseBiz ;
+zer+Pron+Interr:zer InterrCase ;
+zein+Pron+Interr:zer InterrCase ;
+
+LEXICON InterrCase 
+
+InterrCaseReg ;
+InterrCaseLoc ;
+
+
+LEXICON InterrCaseBiz
+
+InterrCaseReg ;
+InterrCaseLocBiz ;
+
+LEXICON InterrCaseReg 
+
++Sg+Abs: # ;
++Sg+Erg:k # ;
++Sg+Dat:i # ;
++Sg+BGen:en # ;
++Sg+Soz:ekin # ;
++Sg+Ben1:entzat # ;
++Sg+Ins:ez # ;
+
+LEXICON InterrCaseLoc
+
++Sg+Ine:tan # ;
++Sg+Ela:tatik # ;
++Sg+Term:taraino # ;
++Sg+All:tara # ;
++Sg+LGen:eko # ;
+
+
+LEXICON InterrCaseLocBiz
+
++Sg+Ine:engan # ;
++Sg+Ela:engandik # ;
++Sg+All:engana # ;
++Sg+Ben2:engatik # ;
+
