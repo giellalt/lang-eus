@@ -1,13 +1,15 @@
 LEXICON Nouns
 
-etxe Nreg "house" ;
-pisu Nreg "flat" ;
-taberna Na "bar" ;
+etxe NregLoc "house" ;
+pisu NregLoc "flat" ;
+taberna NaLoc "bar" ;
 txakur NregBizi "beana" ;
 neska NaBizi "nieida" ;
 seme NregBizi "bárdni" ;
-mendi Nreg "mountain" ;
+mendi NregLoc "mountain" ;
 mutil NregBizi "ganda" ;
 emakume NregBizi "nisson" ;
 gizon NregBizi "olbmái" ;
 katu NregBizi "bussá" ;
+hiri NregLoc "gili" ;
+herri NregLoc "gávpot" ;
