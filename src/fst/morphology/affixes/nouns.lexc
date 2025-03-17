@@ -70,12 +70,12 @@ LEXICON MggCases3
 
 LEXICON Bizidun !after animate noun phrases
 
-+Biz: SgCases1 ;
-+Biz: PlCases1 ;
-+Biz: MggCases1 ;
-+Biz:%>gan SgCases2 ;
-+Biz:%>rengan PlCases2 ;
-+Biz:%>rengan MggCases2 ;
++Sem/Biz: SgCases1 ;
++Sem/Biz: PlCases1 ;
++Sem/Biz: MggCases1 ;
++Sem/Biz:%>gan SgCases2 ;
++Sem/Biz:%>rengan PlCases2 ;
++Sem/Biz:%>rengan MggCases2 ;
 
 !LEXICON Loccases
 !
