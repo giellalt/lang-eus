@@ -1,40 +1,45 @@
 LEXICON Pronouns
 
 Personal ;
+Demonstrative ;
+Interrogative ;
 
 LEXICON Personal
 
-ni+Pron+Pers+Abs:ni # ;
-ni+Pron+Pers+Erg:nik # ;
-ni+Pron+Pers+Dat:niri # ;
-ni+Pron+Pers+Gen:nire # ;
-zu+Pron+Pers+Abs:zu # ;
-zu+Pron+Pers+Erg:zuk # ;
-zu+Pron+Pers+Dat:zuri # ;
-zu+Pron+Pers+Gen:zure # ;
-hura+Pron+Pers+Abs:hura # ;
-hura+Pron+Pers+Erg:harkar # ;
-hura+Pron+Pers+Dat:hari # ;
-hura+Pron+Pers+Gen:haren # ;
-gu+Pron+Pers+Abs:gu # ;
-gu+Pron+Pers+Erg:guk # ;
-gu+Pron+Pers+Dat:guri # ;
-gu+Pron+Pers+Gen:gure # ;
-zuek+Pron+Pers+Abs:zuek # ;
-zuek+Pron+Pers+Erg:zuek # ;
-zuek+Pron+Pers+Dat:zuei # ;
-zuek+Pron+Pers+Gen:zuen # ;
-haiek+Pron+Pers+Abs:haiek # ;
-haiek+Pron+Pers+Erg:haiek # ;
-haiek+Pron+Pers+Dat:haiei # ;
-haiek+Pron+Pers+Gen:haien # ;
+ni+Pron+Pers+Abs+Sg1:ni # ;
+ni+Pron+Pers+Erg+Sg1:nik # ;
+ni+Pron+Pers+Dat+Sg1:niri # ;
+ni+Pron+Pers+Gen+Sg1:nire # ;
+hi+Pron+Pers+Erg+Sg1:hik # ;
+hi+Pron+Pers+Dat+Sg1:hiri # ;
+hi+Pron+Pers+Gen+Sg1:hire # ;
+zu+Pron+Pers+Abs+Sg2:zu # ;
+zu+Pron+Pers+Erg+Sg2:zuk # ;
+zu+Pron+Pers+Dat+Sg2:zuri # ;
+zu+Pron+Pers+Gen+Sg2:zure # ;
+hura+Pron+Pers+Abs+Sg3:hura # ;
+hura+Pron+Pers+Erg+Sg3:harkar # ;
+hura+Pron+Pers+Dat+Sg3:hari # ;
+hura+Pron+Pers+Gen+Sg3:haren # ;
+gu+Pron+Pers+Abs+Pl1:gu # ;
+gu+Pron+Pers+Erg+Pl1:guk # ;
+gu+Pron+Pers+Dat+Pl1:guri # ;
+gu+Pron+Pers+Gen+Pl1:gure # ;
+zuek+Pron+Pers+Abs+Pl2:zuek # ;
+zuek+Pron+Pers+Erg+Pl2:zuek # ;
+zuek+Pron+Pers+Dat+Pl2:zuei # ;
+zuek+Pron+Pers+Gen+Pl2:zuen # ;
+haiek+Pron+Pers+Abs+Pl3:haiek # ;
+haiek+Pron+Pers+Erg+Pl3:haiek # ;
+haiek+Pron+Pers+Dat+Pl3:haiei # ;
+haiek+Pron+Pers+Gen+Pl3:haien # ;
 
-ni+Pron+Pers: pronloc ;
-zu+Pron+Pers: pronloc ;
-hura+Pron+Pers: pronloc ;
-gu+Pron+Pers: pronloc ;
-zuek+Pron+Pers: pronloc ;
-haiek+Pron+Pers: pronloc ;
+ni+Pron+Pers+Sg1: pronloc ;
+zu+Pron+Pers+Sg2: pronloc ;
+hura+Pron+Pers+Sg3: pronloc ;
+gu+Pron+Pers+Pl1: pronloc ;
+zuek+Pron+Pers+Pl2: pronloc ;
+haiek+Pron+Pers+Pl3: pronloc ;
 
 LEXICON pronloc
 +Ben:tzat # ;
@@ -42,3 +47,51 @@ LEXICON pronloc
 +Ins:taz # ;
 
 
+LEXICON Demonstrative 
+
+hau+Pron+Dem+Sg+Abs:hau # ;
+hori+Pron+Dem+Sg+Abs:hori # ;
+hura+Pron+Dem+Sg+Abs:hura # ;
+hauek+Pron+Dem+Pl+Abs:hauek # ;
+horiek+Pron+Dem+Pl+Abs:horiek # ;
+haiek+Pron+Dem+Pl+Abs:haiek # ;
+
+hau+Pron+Dem+Sg+Erg:honek # ;
+hori+Pron+Dem+Sg+Erg:horrek # ;
+hura+Pron+Dem+Sg+Erg:hark # ;
+hauek+Pron+Dem+Pl+Erg:hauek # ;
+horiek+Pron+Dem+Pl+Erg:horiek # ;
+haiek+Pron+Dem+Pl+Erg:haiek # ;
+
+hau+Pron+Dem+Sg+Dat:honi # ;
+hori+Pron+Dem+Sg+Dat:horri # ;
+hura+Pron+Dem+Sg+Dat:hari # ;
+hauek+Pron+Dem+Pl+Dat:hauei # ;
+horiek+Pron+Dem+Pl+Dat:horiei # ;
+haiek+Pron+Dem+Pl+Dat:haiei # ;
+
+hau+Pron+Dem+Sg+PGen:honen # ;
+hori+Pron+Dem+Sg+PGen:horren # ;
+hura+Pron+Dem+Sg+PGen:haren # ;
+hauek+Pron+Dem+Pl+PGen:hauen # ;
+horiek+Pron+Dem+Pl+PGen:horien # ;
+haiek+Pron+Dem+Pl+PGen:haien # ;
+
+hau+Pron+Dem+Sg+Soc:honekin # ;
+hori+Pron+Dem+Sg+Soc:horrekin # ;
+hura+Pron+Dem+Sg+Soc:harekin # ;
+hauek+Pron+Dem+Pl+Soc:hauekin # ;
+horiek+Pron+Dem+Pl+Soc:horiekin # ;
+haiek+Pron+Dem+Pl+Soc:haiekin # ;
+
+hau+Pron+Dem+Sg+Ben1:honentzat # ;
+hori+Pron+Dem+Sg+Ben1:horrentzat # ;
+hura+Pron+Dem+Sg+Ben1:harentzat # ;
+hauek+Pron+Dem+Pl+Ben1:hauentzat # ;
+horiek+Pron+Dem+Pl+Ben1:horientzat # ;
+haiek+Pron+Dem+Pl+Ben1:haientzat # ;
+
+
+LEXICON Interrogative 
+
+nor+Pron+Interr+Sg+Abs:nor # ;
