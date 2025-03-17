@@ -1,4 +1,4 @@
-
+# File containing abbreviations !
 
 +Abbr+A+Attr: # ;  ! no period, that is.
 +Abbr+A:%- R ; !^C^ TRY OUT THIS ONE
