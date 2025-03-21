@@ -49,6 +49,7 @@ LEXICON EZAGUTU
  
 LEXICON IBILI
 +V+Inf: # ;
++V: IBILIINFL ;
  
 LEXICON IHARDUKI
 +V+Inf: # ;
@@ -79,6 +80,12 @@ LEXICON JARRAIKI
  
 LEXICON JOAN
 +V+Inf: # ;
++V: JOANINFL ;
+
+LEXICON ETORRI
+MvIrrI ;
++V: ETORRIINFL ;
+
  
 LEXICON MvIrrI
 +V+Inf:%>i # ;
@@ -269,9 +276,6 @@ LEXICON IZANNORIPOT
 +Dat/Pl3:%>eke       # ;
 
 
-LEXICON ETORRI
-MvIrrI ;
-
 ! XXX: SNM 14.2.2016: This lexicon is added to make eus compile. Replace with
 ! something proper. Replaced 13.2.2025
 LEXICON Mv
@@ -297,3 +301,77 @@ LEXICON MvIrr
 !+Ind+Prt+Abs/Sg2:zinen # ; ! Pot Prt zintezkeen --- zin
 !+Ind+Prt+Abs/Pl2:zineten # ; ! Pot Prt zinezketen -- zinet
 !+Ind+Prt+Abs/Pl3:ziren # ; ! Pot Prt zitezkeen -- zir
+
+
+
+LEXICON JOANINFL
+
++Ind+Prs+Abs/Sg1:noa # ;
++Ind+Prs+Abs/Sg2+ifl:hoa # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3:doa # ;
++Ind+Prs+Abs/Pl1:goaz # ;
++Ind+Prs+Abs/Sg2:zoaz # ;
++Ind+Prs+Abs/Pl2:zoazte # ;
++Ind+Prs+Abs/Pl3:doaz # ;
+
++Ind+Prt+Abs/Sg1:nindoan # ;
++Ind+Prt+Abs/Sg2+ifl:hindoan # ; !+Ind+Prs+Abs/hi
++Ind+Prt+Abs/Sg3:zihoan # ;
++Ind+Prt+Abs/Pl1:gidoazen # ;
++Ind+Prt+Abs/Sg2:zindoazen # ;
++Ind+Prt+Abs/Pl2:zindoazten # ;
++Ind+Prt+Abs/Pl3:zihoazen # ;
+
+LEXICON ETORRIINFL
+
++Ind+Prs+Abs/Sg1:nator # ;
++Ind+Prs+Abs/Sg2+ifl:hator # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3:dator # ;
++Ind+Prs+Abs/Pl1:gatoz # ;
++Ind+Prs+Abs/Sg2:zatoz # ;
++Ind+Prs+Abs/Pl2:zatozte # ;
++Ind+Prs+Abs/Pl3:datoz # ;
+
++Ind+Prt+Abs/Sg1:nentorren # ;
++Ind+Prt+Abs/Sg2+ifl:hentorren # ; !+Ind+Prs+Abs/hi
++Ind+Prt+Abs/Sg3:zetorren # ;
++Ind+Prt+Abs/Pl1:gentozen # ;
++Ind+Prt+Abs/Sg2:zentozen # ;
++Ind+Prt+Abs/Pl2:zentozten # ;
++Ind+Prt+Abs/Pl3:zetozen # ;
+
+LEXICON IBILIINFL
+
++Ind+Prs+Abs/Sg1:nabil # ;
++Ind+Prs+Abs/Sg2+ifl:habil # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3:dabil # ;
++Ind+Prs+Abs/Pl1:gabiltza # ;
++Ind+Prs+Abs/Sg2:zabiltza # ;
++Ind+Prs+Abs/Pl2:zabiltzate # ;
++Ind+Prs+Abs/Pl3:dabiltza # ;
+
++Ind+Prt+Abs/Sg1:nenbilen # ;
++Ind+Prt+Abs/Sg2+ifl:henbilen # ; !+Ind+Prs+Abs/hi
++Ind+Prt+Abs/Sg3:zebilen # ;
++Ind+Prt+Abs/Pl1:genbiltzan # ;
++Ind+Prt+Abs/Sg2:zenebiltzan # ;
++Ind+Prt+Abs/Pl2:zenbiltzaten # ;
++Ind+Prt+Abs/Pl3:zebiltzan # ;
+
+LEXICON EGONINFL
+
++Ind+Prs+Abs/Sg1:nago # ;
++Ind+Prs+Abs/Sg2+ifl:hago # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3:dago # ;
++Ind+Prs+Abs/Pl1:gaude # ;
++Ind+Prs+Abs/Sg2:zaude # ;
++Ind+Prs+Abs/Pl2:zaudete # ;
++Ind+Prs+Abs/Pl3:daude # ;
+
++Ind+Prt+Abs/Sg1:nengoen # ;
++Ind+Prt+Abs/Sg2+ifl:hengoen # ; !+Ind+Prs+Abs/hi
++Ind+Prt+Abs/Sg3:zegoen # ;
++Ind+Prt+Abs/Pl1:geunden # ;
++Ind+Prt+Abs/Sg2:zeunden # ;
++Ind+Prt+Abs/Pl2:zeundeten # ;
++Ind+Prt+Abs/Pl3:zeuden # ;
