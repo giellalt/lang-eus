@@ -105,7 +105,7 @@ LEXICON SgCases1
 +Sg+Ins:%>z # ; !-ez, taz, etaz
 +Sg+Soc:%>rekin # ; !-ekin
 +Sg+Ben:%>rentzat # ; !-entzat
-+Sg+Ben2:%>rengatik # ; !-agatik !-engatik
++Sg+Mot:%>rengatik # ; !-agatik !-engatik
 
 LEXICON SgCases2
 !! **LEXICON @LEXNAME@** second group
@@ -129,7 +129,7 @@ LEXICON PlCases1
 +Pl+Ins:%>ez # ; 
 +Pl+Soc:%>ekin # ;
 +Pl+Ben:%>entzat # ;
-+Pl+Ben2:%>engatik # ;
++Pl+Mot:%>engatik # ;
 
 LEXICON PlCases2 
 !! **LEXICON @LEXNAME@** plural second group
@@ -154,7 +154,7 @@ LEXICON MggCases1
 +Sg+Ins:%>z # ;       !ez,etaz,taz
 +Sg+Soc:%>rekin # ;   !ekin
 +Sg+Ben:%>rentzat # ; !entzat
-+Sg+Ben2:%>rengatik # ;   !engatik
++Sg+Mot:%>rengatik # ;   !engatik
 
 +Sg+Par:%>rik # ;
 
