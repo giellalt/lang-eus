@@ -20,20 +20,9 @@ fi
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+V+Inf \
-            +V+Abs/Sg1+Ind+Prt \
-            +V+Abs/Sg2+ifl+Ind+Prt \
-            +V+Abs/Sg2+Ind+Prt \
-            +V+Abs/Sg3+Ind+Prt \
-            +V+Abs/Pl1+Ind+Prt \
-            +V+Abs/Pl2+Ind+Prt \
-            +V+Abs/Pl3+Ind+Prt \
-            +V+Abs/Sg1+Ind+Prt \
-            +V+Abs/Sg2+ifl+Ind+Prt \
-            +V+Abs/Sg2+Ind+Prt \
-            +V+Abs/Sg3+Ind+Prt \
-            +V+Abs/Pl1+Ind+Prt \
-            +V+Abs/Pl2+Ind+Prt \
-            +V+Abs/Pl3+Ind+Prt \
+            +V+Fut \
+            +V+Ger \
+            +V+Ptc \
             +V+Ind+Prs+Abs/Sg1 \
             +V+Ind+Prs+Abs/Sg2+ifl \
             +V+Ind+Prs+Abs/Sg2 \
