@@ -53,7 +53,7 @@ Precases ;
 
 LEXICON NregBizi
 !! **LEXICON @LEXNAME@** for the bizi ones
-+N: Bizidun ;
++N+Mgg: Bizidun ;
 +N+Art:%>a Bizidun ;
 !+N: Dim ;
 
@@ -73,7 +73,7 @@ LEXICON Na
 
 LEXICON NaBizi
 !! **LEXICON @LEXNAME@** for the vowel-final bizi ones
-+N: Bizidun ;
++N+Mgg: Bizidun ;
 +N+Art: Bizidun ;
 !+N: Dim ;
 
