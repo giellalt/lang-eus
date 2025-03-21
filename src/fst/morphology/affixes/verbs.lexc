@@ -3,35 +3,35 @@
 !! # Main verbs
 !! To be worked out
 LEXICON ATXEKI
-+V+Inf: # ;
+:atxeki MvIrr ;
  
 LEXICON EDUKI
-+V+Inf: # ;
+:eduki MvIrr ;
  
 LEXICON EGIN
-+V+Inf: # ;
+:egin MvIrrG ;
  
 LEXICON EGON
-+V+Inf: # ;
-+V: EGONINFL ;
+:egon MvIrrG ;
+EGONINFL ;
  
 LEXICON EKARRI
-+V+Inf:%>i # ;
+:ekar MvIrrI ;
  
 LEXICON EKIN
-+V+Inf: # ;
+:ekin MvIrrG ;
  
 LEXICON ENTZUN
-+V+Inf: # ;
+:entzun MvIrrG ;
  
 LEXICON ERABILI
-+V+Inf: # ;
+:erabil MvIrrI ;
  
 LEXICON ERAMAN
-+V+Inf: # ;
+:eraman MvIrrG ;
  
 LEXICON ERION
-+V+Inf: # ;
+:erion MvIrrG ;
  
 LEXICON EROAN
 +V+Inf: # ;
@@ -84,8 +84,8 @@ LEXICON JOAN
 +V: JOANINFL ;
 
 LEXICON ETORRI
-MvIrrI ;
-+V: ETORRIINFL ;
+:etor MvIrrI ;
+ETORRIINFL ;
 
  
 LEXICON MvIrrI
@@ -286,6 +286,18 @@ LEXICON Mv
 LEXICON MvIrr
 +V+Inf: # ;
 +V+Fut:%>ko # ;
++V+Ger:%>tzen # ;
++V+Ptc: # ;
+
+LEXICON MvIrrI
++V+Inf: # ;
++V+Fut:%>iko # ;
++V+Ger:%>tzen # ;
++V+Ptc: # ;
+
+LEXICON MvIrrG
++V+Inf: # ;
++V+Fut:%>go # ;
 +V+Ger:%>tzen # ;
 +V+Ptc: # ;
 
