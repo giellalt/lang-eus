@@ -288,13 +288,13 @@ LEXICON MvIrr
 +V+Ptc: # ;
 
 LEXICON MvIrrI
-+V+Inf: # ;
++V+Inf:%>i # ;
 +V+Fut:%>iko # ;
 +V+Ger:%>tzen # ;
 +V+Ptc: # ;
 
 LEXICON MvIrrG
-+V+Inf: # ;
++V+Inf: # ; 
 +V+Fut:%>go # ;
 +V+Ger:%>tzen # ;
 +V+Ptc: # ;
