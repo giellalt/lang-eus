@@ -19,97 +19,86 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+V+Aux+Inf \
-            +V+Aux+Abs/Sg1+Ind+Prt \
-            +V+Aux+Abs/Sg2+ifl+Ind+Prt \
-            +V+Aux+Abs/Sg2+Ind+Prt \
-            +V+Aux+Abs/Sg3+Ind+Prt \
-            +V+Aux+Abs/Pl1+Ind+Prt \
-            +V+Aux+Abs/Pl2+Ind+Prt \
-            +V+Aux+Abs/Pl3+Ind+Prt \
-            +V+Aux+Abs/Sg1+Ind+Prt \
-            +V+Aux+Abs/Sg2+ifl+Ind+Prt \
-            +V+Aux+Abs/Sg2+Ind+Prt \
-            +V+Aux+Abs/Sg3+Ind+Prt \
-            +V+Aux+Abs/Pl1+Ind+Prt \
-            +V+Aux+Abs/Pl2+Ind+Prt \
-            +V+Aux+Abs/Pl3+Ind+Prt \
-            +V+Aux+Ind+Prs+Abs/Sg1 \
-            +V+Aux+Ind+Prs+Abs/Sg2+ifl \
-            +V+Aux+Ind+Prs+Abs/Sg2 \
-            +V+Aux+Ind+Prs+Abs/Sg3 \
-            +V+Aux+Ind+Prs+Abs/Pl1 \
-            +V+Aux+Ind+Prs+Abs/Pl2 \
-            +V+Aux+Ind+Prs+Abs/Pl3 \
-            +V+Aux+Subj+Prs+Abs/Sg1 \
-            +V+Aux+Subj+Prs+Abs/Sg2+ifl \
-            +V+Aux+Subj+Prs+Abs/Sg2 \
-            +V+Aux+Subj+Prs+Abs/Sg3 \
-            +V+Aux+Subj+Prs+Abs/Pl1 \
-            +V+Aux+Subj+Prs+Abs/Pl2 \
-            +V+Aux+Subj+Prs+Abs/Pl3 \
-            +V+Aux+Abs/Sg1+Condfin+Prs \
-            +V+Aux+Abs/Sg2+ifl+Condfin+Prs \
-            +V+Aux+Abs/Sg2+Condfin+Prs \
-            +V+Aux+Abs/Sg3+Condfin+Prs \
-            +V+Aux+Abs/Pl1+Condfin+Prs \
-            +V+Aux+Abs/Pl2+Condfin+Prs \
-            +V+Aux+Abs/Pl3+Condfin+Prs \
-            +V+Aux+Abs/Sg1+Condfin+Prt \
-            +V+Aux+Abs/Sg2+ifl+Condfin+Prt \
-            +V+Aux+Abs/Sg2+Condfin+Prt \
-            +V+Aux+Abs/Sg3+Condfin+Prt \
-            +V+Aux+Abs/Pl1+Condfin+Prt \
-            +V+Aux+Abs/Pl2+Condfin+Prt \
-            +V+Aux+Abs/Pl3+Condfin+Prt \
-            +V+Aux+Abs/Sg1+Pot+Hip \
-            +V+Aux+Abs/Sg2+ifl+Pot+Hip \
-            +V+Aux+Abs/Sg2+Pot+Hip \
-            +V+Aux+Abs/Sg3+Pot+Hip \
-            +V+Aux+Abs/Pl1+Pot+Hip \
-            +V+Aux+Abs/Pl2+Pot+Hip \
-            +V+Aux+Abs/Pl3+Pot+Hip \
-            +V+Aux+Pot+Prs+Abs/Sg1 \
-            +V+Aux+Pot+Prs+Abs/Sg2+ifl \
-            +V+Aux+Pot+Prs+Abs/Sg2 \
-            +V+Aux+Pot+Prs+Abs/Sg3 \
-            +V+Aux+Pot+Prs+Abs/Pl1 \
-            +V+Aux+Pot+Prs+Abs/Pl2 \
-            +V+Aux+Pot+Prs+Abs/Pl3 \
-            +V+Aux+Abs/Sg1+Pot+Prt \
-            +V+Aux+Abs/Sg2+ifl+Pot+Prt \
-            +V+Aux+Abs/Sg2+Pot+Prt \
-            +V+Aux+Abs/Sg3+Pot+Prt \
-            +V+Aux+Abs/Pl1+Pot+Prt \
-            +V+Aux+Abs/Pl2+Pot+Prt \
-            +V+Aux+Abs/Pl3+Pot+Prt \
-            +V+Aux+Ind+Prt+Abs/Sg1+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Sg2+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Sg3+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Pl1+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Pl2+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Pl3+Dat/Sg1 \
-            +V+Aux+Ind+Prt+Abs/Sg1+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Sg2+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Sg3+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Pl1+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Pl2+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Pl3+Dat/Sg2+ifl/m \
-            +V+Aux+Ind+Prt+Abs/Sg1+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Sg2+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Sg3+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Pl1+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Pl2+Dat/Sg3 \
-            +V+Aux+Ind+Prt+Abs/Pl3+Dat/Sg3 \
-            +V+Aux+Fut \
-            +V+Aux+Ptc \
-            +V+Aux+Inf"
+morf_codes="+V+Inf \
+            +V+Fut \
+            +V+Ger \
+            +V+Ptc \
+            +V+Ind+Prs+Abs/Sg1 \
+            +V+Ind+Prs+Abs/Sg2+ifl \
+            +V+Ind+Prs+Abs/Sg2 \
+            +V+Ind+Prs+Abs/Sg3 \
+            +V+Ind+Prs+Abs/Pl1 \
+            +V+Ind+Prs+Abs/Pl2 \
+            +V+Ind+Prs+Abs/Pl3 \
+            +V+Subj+Prs+Abs/Sg1 \
+            +V+Subj+Prs+Abs/Sg2+ifl \
+            +V+Subj+Prs+Abs/Sg2 \
+            +V+Subj+Prs+Abs/Sg3 \
+            +V+Subj+Prs+Abs/Pl1 \
+            +V+Subj+Prs+Abs/Pl2 \
+            +V+Subj+Prs+Abs/Pl3 \
+            +V+Abs/Sg1+Condfin+Prs \
+            +V+Abs/Sg2+ifl+Condfin+Prs \
+            +V+Abs/Sg2+Condfin+Prs \
+            +V+Abs/Sg3+Condfin+Prs \
+            +V+Abs/Pl1+Condfin+Prs \
+            +V+Abs/Pl2+Condfin+Prs \
+            +V+Abs/Pl3+Condfin+Prs \
+            +V+Abs/Sg1+Condfin+Prt \
+            +V+Abs/Sg2+ifl+Condfin+Prt \
+            +V+Abs/Sg2+Condfin+Prt \
+            +V+Abs/Sg3+Condfin+Prt \
+            +V+Abs/Pl1+Condfin+Prt \
+            +V+Abs/Pl2+Condfin+Prt \
+            +V+Abs/Pl3+Condfin+Prt \
+            +V+Abs/Sg1+Pot+Hip \
+            +V+Abs/Sg2+ifl+Pot+Hip \
+            +V+Abs/Sg2+Pot+Hip \
+            +V+Abs/Sg3+Pot+Hip \
+            +V+Abs/Pl1+Pot+Hip \
+            +V+Abs/Pl2+Pot+Hip \
+            +V+Abs/Pl3+Pot+Hip \
+            +V+Pot+Prs+Abs/Sg1 \
+            +V+Pot+Prs+Abs/Sg2+ifl \
+            +V+Pot+Prs+Abs/Sg2 \
+            +V+Pot+Prs+Abs/Sg3 \
+            +V+Pot+Prs+Abs/Pl1 \
+            +V+Pot+Prs+Abs/Pl2 \
+            +V+Pot+Prs+Abs/Pl3 \
+            +V+Abs/Sg1+Pot+Prt \
+            +V+Abs/Sg2+ifl+Pot+Prt \
+            +V+Abs/Sg2+Pot+Prt \
+            +V+Abs/Sg3+Pot+Prt \
+            +V+Abs/Pl1+Pot+Prt \
+            +V+Abs/Pl2+Pot+Prt \
+            +V+Abs/Pl3+Pot+Prt \
+            +V+Ind+Prt+Abs/Sg1+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Sg2+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Sg3+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Pl1+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Pl2+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Pl3+Dat/Sg1 \
+            +V+Ind+Prt+Abs/Sg1+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Sg2+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Sg3+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Pl1+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Pl2+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Pl3+Dat/Sg2+ifl/m \
+            +V+Ind+Prt+Abs/Sg1+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Sg2+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Sg3+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Pl1+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Pl2+Dat/Sg3 \
+            +V+Ind+Prt+Abs/Pl3+Dat/Sg3 \
+            +V+Fut \
+            +V+Ptc \
+            +V+Inf"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/verbs.lexc
@@ -121,7 +110,7 @@ exception_lexicons="(ATXEKI|EDUKI|EGIN|EGON|EKARRI|EKIN|ENTZUN|ERABILI|ERAMAN|ER
 generator_file=src/fst/generator-gt-norm
 
 # How many lemmas maximally for each lexicon:
-lemmacount=100
+lemmacount=2
 
 # Specify path to the dir containing the script used for generation:
 script_dir=$giella_core/scripts
