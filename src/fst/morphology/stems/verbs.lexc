@@ -12,12 +12,12 @@ bidali:bidal MvIrrI "send" ;
 bizi:biz MvIrrI "live" ;
 izan: Aux_izan "be" ;
 ukan: Aux_ukan "be" ;
-erosi:eros "oastit" MvIrrI ;
+erosi:eros MvIrrI "oastit"  ;
 ahaztu:ahaz Mv ;
 birziklatu:birzikla Mv ;
-jan:jan "borrat" MvIrr ; 
-irakurri:irakur "lohkat" MvIrrI ;
-itxi:itx "giddet" MvIrrI ;
+jan:jan  MvIrr "borrat" ; 
+irakurri:irakur MvIrrI "lohkat" ;
+itxi:itx MvIrrI "giddet"  ;
 osatu:osa Mv ;
 
 atxeki: ATXEKI ;
