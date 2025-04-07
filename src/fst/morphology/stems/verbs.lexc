@@ -25,7 +25,7 @@ atxeki:atxeki ATXEKI ;
 eduki:eduki EDUKI ;
 egin:egin EGIN ;
 egon:egon EGON ;
-ekarri:ekarri EKARRI ; ! r = rC ?
+ekarri:ekarr EKARRI ; ! r = rC ?
 ekin:ekin EKIN ;
 entzun:entzun ENTZUN ;
 erabili:erabil ERABILI ;
@@ -33,7 +33,7 @@ eraman:eraman ERAMAN ;
 erion:erion ERION ;
 eroan:eroan EROAN ;
 erran:erran ERRAN ;
-etorri: ETORRI "boahtit" ;
+etorri:etorr ETORRI "boahtit" ;
 etzan:etzan ETZAN ;
 eutsi:eutsi EUTSI ;
 ezagutu:ezagutu EZAGUTU ;
