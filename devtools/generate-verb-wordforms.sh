@@ -23,82 +23,10 @@ morf_codes="+V+Inf \
             +V+Fut \
             +V+Ger \
             +V+Ptc \
-            +V+Ind+Prs+Abs/Sg1 \
-            +V+Ind+Prs+Abs/Sg2+ifl \
-            +V+Ind+Prs+Abs/Sg2 \
-            +V+Ind+Prs+Abs/Sg3 \
-            +V+Ind+Prs+Abs/Pl1 \
-            +V+Ind+Prs+Abs/Pl2 \
-            +V+Ind+Prs+Abs/Pl3 \
-            +V+Subj+Prs+Abs/Sg1 \
-            +V+Subj+Prs+Abs/Sg2+ifl \
-            +V+Subj+Prs+Abs/Sg2 \
-            +V+Subj+Prs+Abs/Sg3 \
-            +V+Subj+Prs+Abs/Pl1 \
-            +V+Subj+Prs+Abs/Pl2 \
-            +V+Subj+Prs+Abs/Pl3 \
-            +V+Abs/Sg1+Condfin+Prs \
-            +V+Abs/Sg2+ifl+Condfin+Prs \
-            +V+Abs/Sg2+Condfin+Prs \
-            +V+Abs/Sg3+Condfin+Prs \
-            +V+Abs/Pl1+Condfin+Prs \
-            +V+Abs/Pl2+Condfin+Prs \
-            +V+Abs/Pl3+Condfin+Prs \
-            +V+Abs/Sg1+Condfin+Prt \
-            +V+Abs/Sg2+ifl+Condfin+Prt \
-            +V+Abs/Sg2+Condfin+Prt \
-            +V+Abs/Sg3+Condfin+Prt \
-            +V+Abs/Pl1+Condfin+Prt \
-            +V+Abs/Pl2+Condfin+Prt \
-            +V+Abs/Pl3+Condfin+Prt \
-            +V+Abs/Sg1+Pot+Hip \
-            +V+Abs/Sg2+ifl+Pot+Hip \
-            +V+Abs/Sg2+Pot+Hip \
-            +V+Abs/Sg3+Pot+Hip \
-            +V+Abs/Pl1+Pot+Hip \
-            +V+Abs/Pl2+Pot+Hip \
-            +V+Abs/Pl3+Pot+Hip \
-            +V+Pot+Prs+Abs/Sg1 \
-            +V+Pot+Prs+Abs/Sg2+ifl \
-            +V+Pot+Prs+Abs/Sg2 \
-            +V+Pot+Prs+Abs/Sg3 \
-            +V+Pot+Prs+Abs/Pl1 \
-            +V+Pot+Prs+Abs/Pl2 \
-            +V+Pot+Prs+Abs/Pl3 \
-            +V+Abs/Sg1+Pot+Prt \
-            +V+Abs/Sg2+ifl+Pot+Prt \
-            +V+Abs/Sg2+Pot+Prt \
-            +V+Abs/Sg3+Pot+Prt \
-            +V+Abs/Pl1+Pot+Prt \
-            +V+Abs/Pl2+Pot+Prt \
-            +V+Abs/Pl3+Pot+Prt \
-            +V+Ind+Prt+Abs/Sg1+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Sg2+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Sg3+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Pl1+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Pl2+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Pl3+Dat/Sg1 \
-            +V+Ind+Prt+Abs/Sg1+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Sg2+ifl/m+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Sg2+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Sg3+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Pl1+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Pl2+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Pl3+Dat/Sg2+ifl/m \
-            +V+Ind+Prt+Abs/Sg1+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Sg2+ifl/f+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Sg2+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Sg3+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Pl1+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Pl2+Dat/Sg3 \
-            +V+Ind+Prt+Abs/Pl3+Dat/Sg3 \
-            +V+Fut \
-            +V+Ptc \
-            +V+Inf"
+            +V+Der/Caus+Inf \
+            +V+Der/Caus+Fut \
+            +V+Der/Caus+Ger \
+            +V+Der/Caus+Ptc"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/verbs.lexc
