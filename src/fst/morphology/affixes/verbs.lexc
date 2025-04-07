@@ -3,20 +3,20 @@
 !! # Main verbs
 !! To be worked out
 LEXICON ATXEKI
-:atxeki MvIrr ;
+MvIrr ;
  
 LEXICON EDUKI
-:eduki MvIrr ;
+MvIrr ;
  
 LEXICON EGIN
-:egin MvIrrG ;
+MvIrrG ;
  
 LEXICON EGON
-:egon MvIrrG ;
+MvIrrG ;
 EGONINFL ;
  
 LEXICON EKARRI
-:ekar MvIrrI ;
+MvIrrI ;
  
 LEXICON EKIN
 :ekin MvIrrG ;
