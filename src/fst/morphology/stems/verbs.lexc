@@ -2,24 +2,29 @@
 
 LEXICON Verbs
 
-asmatu:asma Mv "invent" ;
-gorde:gorde MvIrr "hide" ;
-atera:atera MvIrr "(go, put) out" ;
-hil:hil MvIrr "die, kill" ;
-itzuli:itzul MvIrrI "return" ;
-ikasi:ikas MvIrrI "learn" ;
-bidali:bidal MvIrrI "send" ;
-bizi:biz MvIrrI "live" ;
+!! ## Auxiliaries
+
 izan: Aux_izan "be" ;
 ukan: Aux_ukan "be" ;
-erosi:eros MvIrrI "oastit"  ;
+
+!! ## Main verbs 
+
 ahaztu:ahaz Mv ;
+asmatu:asma Mv "invent" ;
+atera:atera MvIrr "(go, put) out" ;
+bidali:bidal MvIrrI "send" ;
 birziklatu:birzikla Mv ;
-jan:jan  MvIrr "borrat" ; 
+bizi:biz MvIrrI "live" ;
+erosi:eros MvIrrI "oastit"  ;
+gorde:gorde MvIrr "hide" ;
+hil:hil MvIrr "die, kill" ;
+ikasi:ikas MvIrrI "learn" ;
 irakurri:irakurr MvIrrI "lohkat" ;
 itxi:itx MvIrrI "giddet"  ;
-osatu:osa Mv ;
+itzuli:itzul MvIrrI "return" ;
+jan:jan  MvIrr "borrat" ; 
 jarri:jarr MvIrrI "váldit" ;
+osatu:osa Mv ;
 
 atxeki:atxeki ATXEKI ;
 eduki:eduki EDUKI ;
