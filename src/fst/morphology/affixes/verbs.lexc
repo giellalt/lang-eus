@@ -19,19 +19,19 @@ LEXICON EKARRI
 MvIrrI ;
  
 LEXICON EKIN
-:ekin MvIrrG ;
+MvIrrG ;
  
 LEXICON ENTZUN
-:entzun MvIrrG ;
+MvIrrG ;
  
 LEXICON ERABILI
-:erabil MvIrrI ;
+MvIrrI ;
  
 LEXICON ERAMAN
-:eraman MvIrrG ;
+MvIrrG ;
  
 LEXICON ERION
-:erion MvIrrG ;
+MvIrrG ;
  
 LEXICON EROAN
 +V+Inf: # ;
@@ -43,17 +43,17 @@ LEXICON ETZAN
 +V+Inf: # ;
  
 LEXICON EUTSI
-+V+Inf: # ;
+MvIrrI ;
  
 LEXICON EZAGUTU
 +V+Inf: # ;
  
 LEXICON IBILI
-+V+Inf: # ;
+MvIrrI ;
 +V: IBILIINFL ;
  
 LEXICON IHARDUKI
-+V+Inf: # ;
+MvIrrI ;
  
 LEXICON IKUSI
 +V+Inf:%>i # ;
@@ -65,10 +65,10 @@ LEXICON IRAUN
 +V+Inf: # ;
  
 LEXICON IRITZI
-+V+Inf: # ;
+MvIrrI ;
  
 LEXICON IRUDI
-+V+Inf: # ;
+MvIrrI ;
  
 LEXICON JAKIN
 +V+Inf: # ;
@@ -77,14 +77,14 @@ LEXICON JARDUN
 +V+Inf: # ;
  
 LEXICON JARRAIKI
-+V+Inf: # ;
+MvIrrI ;
  
 LEXICON JOAN
 +V+Inf: # ;
 +V: JOANINFL ;
 
 LEXICON ETORRI
-:etor MvIrrI ;
+MvIrrI ;
 ETORRIINFL ;
 
  
