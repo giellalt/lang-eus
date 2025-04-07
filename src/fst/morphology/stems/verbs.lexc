@@ -16,20 +16,21 @@ erosi:eros MvIrrI "oastit"  ;
 ahaztu:ahaz Mv ;
 birziklatu:birzikla Mv ;
 jan:jan  MvIrr "borrat" ; 
-irakurri:irakur MvIrrI "lohkat" ;
+irakurri:irakurr MvIrrI "lohkat" ;
 itxi:itx MvIrrI "giddet"  ;
 osatu:osa Mv ;
+jarri:jarr MvIrrI "váldit" ;
 
-atxeki: ATXEKI ;
-eduki: EDUKI ;
-egin: EGIN ;
-egon: EGON ;
-ekarri: EKARRI ; ! r = rC ?
-ekin: EKIN ;
-entzun: ENTZUN ;
-erabili: ERABILI ;
-eraman: ERAMAN ;
-erion: ERION ;
+atxeki:atxeki ATXEKI ;
+eduki:eduki EDUKI ;
+egin:egin EGIN ;
+egon:egon EGON ;
+ekarri:ekarri EKARRI ; ! r = rC ?
+ekin:ekin EKIN ;
+entzun:entzun ENTZUN ;
+erabili:erabil ERABILI ;
+eraman:eraman ERAMAN ;
+erion:erion ERION ;
 eroan:eroan EROAN ;
 erran:erran ERRAN ;
 etorri: ETORRI "boahtit" ;
