@@ -288,16 +288,24 @@ LEXICON MvIrr
 +V+Ptc: # ;
 
 LEXICON MvIrrI
-+V+Inf:%>i # ;
-+V+Fut:%>iko # ;
-+V+Ger:%>tzen # ;
-+V+Ptc: # ;
++V: MvIrrIINFL ;
++V+Der/Caus:arazi MvIrrIINFL ;
+
+LEXICON MvIrrIINFL
++Inf:%>i # ;
++Fut:%>iko # ;
++Ger:%>tzen # ;
++Ptc: # ;
 
 LEXICON MvIrrG
-+V+Inf: # ; 
-+V+Fut:%>go # ;
-+V+Ger:%>tzen # ;
-+V+Ptc: # ;
++V: MvIrrGINFL ;
++V+Der/Caus:arazi MvIrrIINFL ;
+
+LEXICON MvIrrGINFL
++Inf: # ; 
++Fut:%>go # ;
++Ger:%>tzen # ;
++Ptc: # ;
 
 
 
