@@ -34,13 +34,13 @@ LEXICON ERION
 MvIrrG ;
  
 LEXICON EROAN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON ERRAN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON ETZAN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON EUTSI
 MvIrrI ;
@@ -62,7 +62,7 @@ LEXICON IO
 +V+Inf: # ;
  
 LEXICON IRAUN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON IRITZI
 MvIrrI ;
@@ -71,16 +71,16 @@ LEXICON IRUDI
 MvIrrI ;
  
 LEXICON JAKIN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON JARDUN
-+V+Inf: # ;
+MvIrrG ;
  
 LEXICON JARRAIKI
 MvIrrI ;
  
 LEXICON JOAN
-+V+Inf: # ;
+MvIrrG ;
 +V: JOANINFL ;
 
 LEXICON ETORRI
