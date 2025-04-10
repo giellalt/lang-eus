@@ -32,7 +32,7 @@ Rules
  
 "r doubling"
 !! Rule: **@RULENAME@**
- 0:r <=> r %> _ Vow ;
+ 0:r <=> Vow r %> _ Vow ;
  
 "tz > t"
 !! Rule: **@RULENAME@**
