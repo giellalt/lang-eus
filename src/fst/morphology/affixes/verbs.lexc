@@ -299,7 +299,7 @@ LEXICON MvIrrIINFL
 
 LEXICON MvIrrG
 +V: MvIrrGINFL ;
-+V+Der/Caus:arazi MvIrrIINFL ;
++V+Der/Caus:araz MvIrrIINFL ;
 
 LEXICON MvIrrGINFL
 +Inf: # ; 
