@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-eus)](https://github.com/giellalt/lang-eus/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-eus?label=CI)](https://builds.giellalt.org/pipelines/lang-eus/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the [Basque language model](http://github.com/giellalt/lang-eus). 
 
