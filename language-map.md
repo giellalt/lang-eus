@@ -1,0 +1,15 @@
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Basque",
+    "radius": 200,
+    "marker-color": "#ff4444",
+    "marker-size": "large"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-1.31622, 43.2787]
+  }
+}
+```
