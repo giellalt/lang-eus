@@ -1,6 +1,3 @@
-spellername = "Basque"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "ED4821A4-31FA-44C5-B95B-2574827DDF37", kind = "nsis" },
     { value = "2E7FA9B6-62F9-4419-ADBF-B605B903A8A9", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Basque"
+version = "0.1.1"
+
+[package.grammar]
+name = "Basque"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Basque"
+version = "0.1.0"
